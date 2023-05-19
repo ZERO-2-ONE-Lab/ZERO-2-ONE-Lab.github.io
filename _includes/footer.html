@@ -1,0 +1,105 @@
+<!-- BEGIN Footer -->
+<footer>
+    <div class="container">
+        <!-- permalink append based on languages -->
+        {% if page.lang == site.default_lang %}
+        {% assign append = "" %}
+        {% else %}
+        {% assign append = site.data.locales[page.lang].append %}
+        {% endif %}
+        <div class="row">
+            <div class="col-md-4">
+                <h3><i class="fa fa-map-marker"></i> {{ site.data.locales[page.lang].contact | capitalize }}</h3>
+                <p class="footer-contact">
+                    RheinTech Energy GmbH <br>
+                    <em>
+                        Sandstr. 87 <br>
+                        40789 Monheim a. Rhein <br>
+                        Germany <br>
+                    </em>
+                    {{ site.data.locales[page.lang].phone }}: 0049 (0) 214 314 997 0 <br>
+                    {{ site.data.locales[page.lang].fax }}: 0049 (0) 214 314 997 17 <br>
+                    {{ site.data.locales[page.lang].email }}: info@rte-energy.de<br>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-external-link"></i> {{ site.data.locales[page.lang].links | capitalize }}</h3>
+                <!--
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/company"> {{ site.data.locales[page.lang].company | capitalize }} </a></p>
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/software"> {{ site.data.locales[page.lang].software | capitalize }} </a></p>
+                -->
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/products"> {{
+                        site.data.locales[page.lang].products | capitalize }} </a></p>
+                <ul>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#photovoltaics"> {{
+                            site.data.locales[page.lang].photovoltaics  | capitalize }}</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#energy_storage"> {{
+                            site.data.locales[page.lang].energy_storage | capitalize }}</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#charging_stations"> {{
+                            site.data.locales[page.lang].charging_stations | capitalize }}</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#heat_pumps"> {{
+                            site.data.locales[page.lang].heat_pumps | capitalize }}</a></li>
+                </ul>
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions"> {{
+                        site.data.locales[page.lang].solutions | capitalize }} </a></p>
+                <ul>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions#residential"> {{
+                            site.data.locales[page.lang].residential | capitalize }}</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions#industrial"> {{
+                            site.data.locales[page.lang].industrial | capitalize }}</a></li>
+                </ul>
+                <!--
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/blog"> {{ site.data.locales[page.lang].blog | capitalize }} </a></p>
+                -->
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ append }}/contact"> {{
+                        site.data.locales[page.lang].contact | capitalize }} </a></p>
+            </div>
+            <!--
+            <div class="col-md-4">
+                <h3><i class="fa fa-heart"></i> {{ site.data.locales[page.lang].follow_us }}</h3>
+                <div id="social-icons">
+
+
+
+                    <a href="http://www.linkedin.com" class="btn-group linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+
+
+                    <a href="http://www.twitter.com" class="btn-group twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+
+
+                    <a href="http://www.facebook.com" class="btn-group facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="copyright text-start"></p>
+                &copy; Copyright 2023 &nbsp; <a href="{{ site.url }}{{ site.baseurl }}{{ append }}">RheinTech Engergy GmbH
+                    GmbH</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="imprint text-end">
+                    <a href="{{ site.url }}{{ site.baseurl}}{{ append }}/privacy-policy"> {{
+                        site.data.locales[page.lang].privacy_policy | upcase}} </a>
+                    &nbsp;
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ append }}/imprint"> {{
+                        site.data.locales[page.lang].imprint | upcase}} </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->

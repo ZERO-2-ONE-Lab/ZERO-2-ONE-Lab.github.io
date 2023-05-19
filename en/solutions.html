@@ -1,0 +1,141 @@
+---
+layout: default_style
+permalink: /solutions
+published: true
+reference: solutions
+---
+<!-- Begin #carousel-section-products -->
+<section id="carousel-section-products">
+  <div id="carousel-products" class="carousel slide" data-bs-ride="false">
+    <!--
+    <div class="carousel-indicators"> <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="0"
+        class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button"
+        data-bs-target="#carousel-products" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button"
+        data-bs-target="#carousel-products" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+    </div>
+    -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner.jpg" class="d-block w-100"
+          alt="slide-1">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-title">RheinTech Engergy</p>
+          <p>
+            {{ site.data.locales[page.lang].slogan }}
+          </p>
+        </div>
+      </div>
+      <!--
+      <div class="carousel-item"> <img src="{{ site.url }}{{ site.baseurl }}/assets/img/slider/alcides/slide2.jpeg"
+          class="d-block w-100" alt="slide-2">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-title">Second slide label</p>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item"> <img src="{{ site.url }}{{ site.baseurl }}/assets/img/slider/alcides/slide3.jpeg"
+          class="d-block w-100" alt="slide-3">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-title">Third slide label</p>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      -->
+    </div>
+    <!--
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-products" data-bs-slide="prev">
+      <span class="fa-solid fa-angles-left fa-3x" aria-hidden="true"></span> <span
+        class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button"
+      data-bs-target="#carousel-products" data-bs-slide="next"> <span class="fa-solid fa-angles-right fa-3x"
+        aria-hidden="true"></span> <span class="visually-hidden">Next</span> 
+    </button>
+    -->
+  </div>
+</section> <!-- End #carousel-section-products -->
+<!-- Begin #company-section -->
+<section id="solutions" class="section-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="content-block">
+        <p class="content-block-title">Our solutions</p>
+        <div class="row content-block-body" id="residential">
+          <div class="col-12 col-md-4 product-entry">
+            <a href="{{ site.url }}{{ site.baseurl }}/products/product_1">
+              <div class="image-container img-responsive bg-image hover-zoom"> <img
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/residential_1.jpg"
+                  alt="Image of product 1">
+              </div>
+            </a>
+            <div class="product-info">
+              <p class="product-name">Residential</p>
+              <p class="product-alias">Rheintech R-1</p>
+              <p class="product-description">Rheintech R-1 is one of our solutions for residential buildings which
+                consists of a residential PV system, battery storage and charging pile. blah blah blah ... 
+              <ul>
+                <li>Key feature 1: XXX</li>
+                <li>Key feature 2: XXX</li>
+                <li>Key feature 3: XXX</li>
+              </ul>
+              </p> <a class="btn btn-primary" type="application/pdf"
+                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 product-entry">
+            <a href="{{ site.url }}{{ site.baseurl }}/products/product_2">
+              <div class="image-container img-responsive bg-image hover-zoom">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/residential.jpg"
+                  alt="Image of product 2">
+              </div>
+            </a>
+            <div class="product-info">
+              <p class="product-name">Residential</p>
+              <p class="product-alias">Rheintech R-2</p>
+              <p class="product-description">Rheintech R-2 is one of our solutions for residential buildings which consists of a residential PV system, a battery storage, a charging pile  and a heat pump. 
+              <ul>
+                <li>Key feature 1: XXX</li>
+                <li>Key feature 2: XXX</li>
+                <li>Key feature 3: XXX</li>
+              </ul>
+              </p> <a class="btn btn-primary" type="application/pdf"
+                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 product-entry" id="industrial">
+            <a href="{{ site.url }}{{ site.baseurl }}/products/product_2">
+              <div class="image-container img-responsive bg-image hover-zoom">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/industrial.jpg"
+                  alt="Image of product 2">
+              </div>
+            </a>
+            <div class="product-info">
+              <p class="product-name">Industrial/Commercial</p>
+              <p class="product-alias">Rheintech IC</p>
+              <p class="product-description">Rheintech IC is our solutions for a industrial park or commercial complex. Thanks to our wide product spectrum, we can easily find a solution to meet your requirements.
+              <ul>
+                <li>Key feature 1: XXX</li>
+                <li>Key feature 2: XXX</li>
+                <li>Key feature 3: XXX</li>
+              </ul>
+              </p> <a class="btn btn-primary" type="application/pdf"
+                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- End Products Row -->
+    <!-- Start Product Query Row -->
+    <div class="row" id="product-query">
+      <div class="content-block product-query-text">
+        <p>You want to know more about our solutions?</p>
+        <p>Our sales team will be happy to advise you.</p>
+        <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">Request Now</a>
+      </div>
+    </div>
+    <!-- End Product Query Row -->
+</section>
+<!-- End Products Section-->
+<!--
+<div class=" container">
+  <p><strong>TODO: </strong>Update pictures, layout, texts</p>
+</div>
+-->
