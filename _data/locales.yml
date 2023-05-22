@@ -55,17 +55,17 @@ de:
   company: unternehmen
   blog: blog
   contact: kontakt
-  slogan: Creating A Green New World
+  slogan: Schaffung einer grünen neuen Welt
   robots: Robots
-  photovoltaics: photovoltaics
-  energy_storage: energy storage
-  charging_stations: charging stations
-  heat_pumps: heat pumps
+  photovoltaics: photovoltaik
+  energy_storage: Batteriespeicher
+  charging_stations: Ladestaion
+  heat_pumps: Wärmepumpen
   family_pv_storage_charge: family pv storage charge 
   family_pv_storage_charge_pump: family pv storage charge heat pump
   industrial_park_zero_emission: industrial park zero emission
-  residential: residential
-  industrial: industrial
+  residential: Privatkunden
+  industrial: Geschäftskunden
   services: Dienstleistungen
   links: links
   follow_us: Folge uns
@@ -76,7 +76,7 @@ de:
   append: /de
   phone: Telefon
   fax: Fax
-  email: Email
+  email: E-Mail
   find_us_at: Finden Sie uns unter
   contact_form: Kontaktformular
   name: Name
