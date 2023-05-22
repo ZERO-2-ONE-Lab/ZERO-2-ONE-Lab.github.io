@@ -9,7 +9,7 @@ Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
 * ==========================================================================
 */
 :root {
-    --alcides-blue: #0565B3
+    --rte-blue: #5B80C0
 }
 
 .logo {
@@ -18,7 +18,7 @@ Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
 
 
 a {
-    color: var(--alcides-blue) !important;
+    color: var(--rte-blue) !important;
     overflow-wrap: break-word;
     text-decoration: none;
     transition: all .3s;
@@ -40,13 +40,13 @@ a:hover {
 */
 
 .navbar-nav li.active>a {
-    background: var(--alcides-blue) !important;
+    background: var(--rte-blue) !important;
     color: white !important;
 }
 
 .navbar-nav li.active>a:hover,
 .navbar-nav li.active>a:focus {
-    background: var(--alcides-blue) !important;
+    background: var(--rte-blue) !important;
     color: white !important;
     text-decoration: none !important;
 }
@@ -55,7 +55,7 @@ a:hover {
 .navbar .navbar-nav li a:focus {
     text-decoration: underline;
     text-decoration-thickness: 5px;
-    color: var(--alcides-blue);
+    color: var(--rte-blue);
 }
 
 .navbar .navbar-nav li a {
@@ -127,7 +127,7 @@ a:hover {
 }
 
 .feature-entry .feature-icon {
-    color: var(--alcides-blue);
+    color: var(--rte-blue);
     margin-bottom: 20px;
 }
 
@@ -189,7 +189,7 @@ a:hover {
 
 .product-entry .btn-primary {
     margin-top: 1.5rem;
-    background: var(--alcides-blue);
+    background: var(--rte-blue);
     color: white !important;
     font-size: 1.2rem;
 }
@@ -201,7 +201,7 @@ a:hover {
 
 #product-query .btn-primary {
     margin-top: 1.5rem;
-    background: var(--alcides-blue);
+    background: var(--rte-blue);
     color: white !important;
     font-size: 1.2rem;
 }
@@ -399,11 +399,11 @@ a:hover {
 }
 
 .contact-block .btn-primary {
-    background-color: var(--alcides-blue);
+    background-color: var(--rte-blue);
 }
 
 .contact-block a {
-    color: var(--alcides-blue);
+    color: var(--rte-blue);
 }
 
 .contact-block .form-group {
@@ -425,14 +425,14 @@ a:hover {
 * ==========================================================================
 */
 .carousel-caption {
-    /* color: var(--alcides-blue) !important; */
+    /* color: var(--rte-blue) !important; */
     color: white;
     font-weight: bold;
     font-size: 2rem;
 }
 
 .carousel-caption .carousel-title {
-    /* color: var(--alcides-blue); */
+    /* color: var(--rte-blue); */
     font-size: 3rem;
 }
 
