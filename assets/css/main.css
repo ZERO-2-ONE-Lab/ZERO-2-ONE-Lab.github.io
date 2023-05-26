@@ -165,16 +165,17 @@ a:hover {
 }
 
 .product-entry .product-info .product-name {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 
 .product-entry .product-info .product-alias {
     font-style: italic;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
 .product-entry .product-info .product-description {
+    font-size: 20px;
     margin-bottom: 1rem;
 }
 
