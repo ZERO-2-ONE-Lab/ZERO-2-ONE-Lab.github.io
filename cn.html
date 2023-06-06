@@ -57,6 +57,7 @@
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://rheintech-energy.github.io/assets/css/cookieconsent.css" media="print"
         onload="this.media='all'">
+
 </head>
 
 <!-- Header -->
@@ -92,34 +93,44 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarProductDropdown">
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#photovoltaics">
-                                光伏</a></li>
+                                href="https://rheintech-energy.github.io/cn/products#工商业屋顶光伏">
+                                工商业屋顶光伏</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#energy_storage">
+                                href="https://rheintech-energy.github.io/cn/products#户用光伏">
+                                户用光伏</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://rheintech-energy.github.io/cn/products#地面光伏电站">
+                                地面光伏电站</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://rheintech-energy.github.io/cn/products#储能">
                                 储能</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#charging_stations">
-                                充电站</a></li>
+                                href="https://rheintech-energy.github.io/cn/products#充电桩">
+                                充电桩</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#heat_pumps">
+                                href="https://rheintech-energy.github.io/cn/products#热泵">
                                 热泵</a></li>
                     </ul>
                 </li>
-                <!-- Solution dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="https://rheintech-energy.github.io/cn/solutions"
-                        id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        解决方案
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
-                        <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/solutions#residential">
-                                户用</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/solutions#industrial">
-                                商用</a></li>
-                    </ul>
+                <!-- Solution Dropdown
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://rheintech-energy.github.io/cn/solutions"
+                            id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            解决方案
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://rheintech-energy.github.io/cn/solutions#residential">
+                                    户用</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://rheintech-energy.github.io/cn/solutions#industrial">
+                                    商用</a></li>
+                        </ul>
+                    </li>
+                 -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rheintech-energy.github.io/cn/eaas"> 能源即服务</a>
                 </li>
                 <!--
                 <li class="nav-item">
@@ -208,54 +219,71 @@
     });
   });
 </script>
+<!-- interactive image -->
+<script>
+jQuery(function($) {
+  var pop = $('.map-popup');
+  pop.click(function(e) {
+    e.stopPropagation();
+  });
+  
+  $('a.marker').click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(this).next('.map-popup').toggleClass('open');
+    $(this).parent().siblings().children('.map-popup').removeClass('open');
+  });
+  
+  $(document).click(function() {
+    pop.removeClass('open');
+  });
+  
+  pop.each(function() {
+    var w = $(window).outerWidth(),
+        edge = Math.round( ($(this).offset().left) + ($(this).outerWidth()) );
+    if( w < edge ) {
+      $(this).addClass('edge');
+    }
+  });
+});
+</script>
 <!-- End Scripts -->
 
-
 <body>
-  <!-- Begin #carousel-section-home -->
+  
+
+<!-- Begin #carousel-section-home -->
 <section id="carousel-section-home">
     <div id="carousel-home" class="carousel slide" data-bs-ride="false">
-        <!--
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://rheintech-energy.github.io/assets/img/rheintech/background_banner.jpg"
-                    class="d-block w-100" alt="slide-1">
+                <img src="https://rheintech-energy.github.io/assets/img/rheintech/background_banner1.jpg"
+                    class="d-block w-100" alt="Lösungen mit Photovoltaik-Batteriespeicher-Ladesäulen">
                 <div class="carousel-caption d-none d-md-block">
                     <p class="carousel-title">RheinTech Energy</p>
-                    <p>
-                        创造绿色新世界
-                    </p>
-                </div>
-            </div>
-            <!--
-            <div class="carousel-item">
-                <img src="https://rheintech-energy.github.io/assets/img/slider/alcides/slide2.jpeg"
-                    class="d-block w-100" alt="slide-2">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="carousel-title">Second slide label</p>
-                    <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://rheintech-energy.github.io/assets/img/slider/alcides/slide3.jpeg"
-                    class="d-block w-100" alt="slide-3">
+                <img src="https://rheintech-energy.github.io/assets/img/rheintech/background_banner2.jpg"
+                    class="d-block w-100" alt="Rooftop PV, Solardach">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="carousel-title">Third slide label</p>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <p class="carousel-title">Creating A Green New World</p>
                 </div>
             </div>
-            -->
+            <div class="carousel-item">
+                <img src="https://rheintech-energy.github.io/assets/img/rheintech/background_banner3.jpg"
+                    class="d-block w-100" alt="Solarzellen, Photovoltaik, Solaranlage">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="carousel-title">Energy-as-a-Service</p>
+                </div>
+            </div>
         </div>
-        <!--
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
             <span class="fa-solid fa-angles-left fa-3x" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -264,11 +292,9 @@
             <span class="fa-solid fa-angles-right fa-3x" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-        -->
     </div>
 </section>
 <!-- End #carousel-section-home -->
-
 
 <!-- Begin #profile-section -->
 <section id="profile" class="section-wrapper">
@@ -278,155 +304,165 @@
         <div class="row">
             <div class="content-block">
                 <div class="content-block-title">
-                    为什么选择我们？
+                    Why RheinTech Energy?
                 </div>
                 <div class="row text-start content-block-body">
-                    <div class="col-12">
-                        房地产开发商和总承包商都面临着挑战：将新能源与既有建筑或新建建筑结合的复杂性。RheinTech
-                        Energy团队拥有有资质的能源管理顾问，可以在项目规划设计阶段提供技术、政策咨询服务，为您自己的核心业务创造了空间。我们可以提供从项目规划设计咨询、可再生能源产品采购、安装、运维以及融资方案的一整套优质服务，让您没有后顾之忧。
+                    <div class="col-md-12">
+                        <ul>
+                            <li>能源即服务（EaaS）概念，以减少二氧化碳排放。 </li>
+                            <li>个人概念、咨询、融资、综合规划、实施 </li>
+                            <li>在光伏系统、电池存储、充电柱和热泵领域的服务 </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Feature Row -->
-
-        <!-- Begin Products Row-->
+        <!-- Begin EaaS Row -->
         <div class="row">
             <div class="content-block">
                 <div class="content-block-title">
-                    <p>我们的产品</p>
+                    <p>Energy-as-a-Service</p>
                 </div>
-                <div class="row content-block-body">
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="https://rheintech-energy.github.io/products#photovoltaics">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="https://rheintech-energy.github.io/assets/img/rheintech/pv_roof.jpg"
-                                    alt="Image of product 1">
+                <!-- Begin EaaS Interactive picture row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="map">
+                            <div class="map-item map-item1">
+                                <a class="marker marker1" href="#marker1"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker1" class="map-popup">
+                                    <h3 class="popup-title"> 工商业屋顶光伏 </h3>
+                                    <p> 实行工商业屋顶光伏定制化解决方案，有助于提升能源系统效率，降低用电成本，减少CO2排放，同时实现企业的ESG可持续发展目标。
+ </p>
+                                    <a class="btn"
+                                        href="https://rheintech-energy.github.io/cn/products#工商业屋顶光伏">
+                                        了解更多</a>
+                                </aside>
                             </div>
-                        </a>
+
+                            <div class="map-item map-item2">
+                                <a class="marker marker2" href="#marker2"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker2" class="map-popup">
+                                    <h3 class="popup-title"> 户用光伏 </h3>
+                                    <p> 德国户用电价高昂，使用光伏加储能系统的解决方案，可以减少光伏电力直接输入电网（德国光伏上网电价约9欧分），最大限度实现光伏发电，自己使用。
+ </p>
+                                    <a class="btn"
+                                        href="https://rheintech-energy.github.io/cn/products#户用光伏">
+                                        了解更多</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item3">
+                                <a class="marker marker3" href="#marker3"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker3" class="map-popup">
+                                    <h3 class="popup-title"> 地面光伏电站 </h3>
+                                    <p> 将光伏与农业进行结合是一种创新的光伏电站模式，特点是土地双重利用。2023年的可再生能源法 (EEG)，对于德国的Agro-Photovoltaik (APV)的发展是重大利好，将APV电站的招标模式从特殊招标变成了一般招标，简化了APV电站建设的繁杂手续
+ </p>
+                                    <a class="btn"
+                                        href="https://rheintech-energy.github.io/cn/products#地面光伏电站">
+                                        了解更多</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item4">
+                                <a class="marker marker4" href="#marker4"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker4" class="map-popup">
+                                    <h3 class="popup-title"> 储能 </h3>
+                                    <p> 将太阳能与储能相结合的综合解决方案可以提升光伏本地消纳量、提高电力可靠性和电力质量，降低电费开支。
+ </p>
+                                    <a class="btn"
+                                        href="https://rheintech-energy.github.io/cn/products#储能">
+                                        了解更多</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item5">
+                                <a class="marker marker5" href="#marker5"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker5" class="map-popup">
+                                    <h3 class="popup-title"> 充电桩 </h3>
+                                    <p> 光伏车棚与充电站的组合是有吸引力的，光伏电力让电动车的电力来源更加绿色，也是一种公司对于能源转型与应对气候变化的决心的展示方式。
+ </p>
+                                    <a class="btn"
+                                        href="https://rheintech-energy.github.io/cn/products#充电桩">
+                                        了解更多</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item6">
+                                <a class="marker marker6" href="#marker6"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker6" class="map-popup">
+                                    <h3 class="popup-title"> 热泵 </h3>
+                                    <p> 热泵是一种绿色的温度调节设备，近年来在市场上越来越火热。但痛点是耗电量较大，我们应用于住宅和工商业的光伏＋储能＋充电桩＋热泵的解决方案，可以完美解决这一痛点：热泵作为电力消费者消耗光伏产生的绿色电力，通过我们的能源管理系统(EMS)进行电力分配与优化，可以为您降低电力开支。
+ </p>
+                                    <a class="btn"
+                                        href="https://rheintech-energy.github.io/cn/products#热泵">
+                                        了解更多</a>
+                                </aside>
+                            </div>
+
+                            <img class="img-interactive"
+                                src="https://rheintech-energy.github.io/assets/img/rheintech/industrial.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- End EaaS Interactive picture row -->
+                <div class="row content-block-body">
+                    <div class="col-12 col-md-4 product-entry">
                         <div class="product-info">
                             <p class="product-name">
-                                光伏
+                                定制化服务
                             <p>
+                                <!--
                             <p class="product-alias">Put product serial here, e.g., Rheintech PV</p>
-                            <p class="product-description">Rheintech PV series is our photovoltaics products ranging
-                                from 450W to 1000W, blahblah.</p>
+                            -->
+                            <p class="product-description"> 我们根据您的需求，提供可再生能源产品以及家庭、工商业能源系统升级改造解决方案。 
+</p>
                             <a class="btn btn-primary" href="https://rheintech-energy.github.io/products#photovolatics">
                                 了解更多</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="https://rheintech-energy.github.io/products#storage">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="https://rheintech-energy.github.io/assets/img/rheintech/storage_commercial.jpg"
-                                    alt="Image of product 2">
-                            </div>
-                        </a>
+                    <div class="col-12 col-md-4 product-entry">
                         <div class="product-info">
                             <p class="product-name">
-                                储能
+                                融资服务
                             </p>
+                            <!--
                             <p class="product-alias">Put product serial here </p>
-                            <p class="product-description"> Rheintech ES series is our energy storage products, with
-                                capacity from XX to YY Ah, blahblah.</p>
+                            -->
+                            <p class="product-description"> 专业人士向您提供可再生能源系统融资方面的全方位支持，例如收益模型和从资本投资到Energy-as-a-Service (EaaS)的理念，解决您资金方面的后顾之忧。 
+</p>
                             <a class="btn btn-primary" href="https://rheintech-energy.github.io/products#charging"> 了解更多</a>
                         </div>
                     </div>
-                </div>
-                <div class="row content-block-body">
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="https://rheintech-energy.github.io/products#charging">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="https://rheintech-energy.github.io/assets/img/rheintech/charging.jpg"
-                                    alt="Image of product 1">
-                            </div>
-                        </a>
+                    <div class="col-12 col-md-4 product-entry">
                         <div class="product-info">
                             <p class="product-name">
-                                充电站
-                            <p>
-                            <p class="product-alias"> Rheintech CS</p>
-                            <p class="product-description">Rheintech CS series is our charging station products which
-                                consist of
-                                blahblah.</p>
-                            <a class="btn btn-primary" href="https://rheintech-energy.github.io/products#charging"> 了解更多</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="https://rheintech-energy.github.io/products#pump">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="https://rheintech-energy.github.io/assets/img/rheintech/pump.jpg"
-                                    alt="Image of product 2">
-                            </div>
-                        </a>
-                        <div class="product-info">
-                            <p class="product-name">
-                                热泵
+                                建设服务
                             </p>
-                            <p class="product-alias">Rheintech HP</p>
-                            <p class="product-description"> Rheintech HP series is our heat pump products which consists
-                                of, blahblah.</p>
-                            <a class="btn btn-primary" href="https://rheintech-energy.github.io/products#pump"> 了解更多</a>
+                            <!--
+                            <p class="product-alias">Put product serial here </p>
+                            -->
+                            <p class="product-description"> 我们可以提供经验丰富的工程师、电工与安装商团队，控制整个安装环节，确保提供可靠的、高质量的建设服务。
+</p>
+                            <a class="btn btn-primary" href="https://rheintech-energy.github.io/products#charging"> 了解更多</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Products Row -->
-        <!-- Begin Solutions Row-->
-        <div class="row">
-            <div class="content-block">
-                <div class="content-block-title">
-                    <p>我们的解决方案</p>
-                </div>
-                <div class="row content-block-body">
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="https://rheintech-energy.github.io/solutions#residential">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="https://rheintech-energy.github.io/assets/img/rheintech/residential.jpg"
-                                    alt="Image of product 1">
-                            </div>
-                        </a>
-                        <div class="product-info">
-                            <p class="product-name">
-                                户用
-                            <p>
-                            <p class="product-description">For residential applications, we can provide different
-                                combinations of our products to greenify your daily life:</p>
-                            <ul>
-                                <li>
-                                    PV + Battery Storage + Charging Pile
-                                </li>
-                                <li>
-                                    PV + Battery Storage + Charging Pile + Heat pumps
-                                </li>
-                            </ul>
-                            <a class="btn btn-primary" href="https://rheintech-energy.github.io/products#robots"> 了解更多</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="https://rheintech-energy.github.io/solutions#industrial">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="https://rheintech-energy.github.io/assets/img/rheintech/industrial.jpg"
-                                    alt="Image of product 2">
-                            </div>
-                        </a>
-                        <div class="product-info">
-                            <p class="product-name">
-                                商用
-                            </p>
-                            <p class="product-description"> For industrial applications, we can provide a package
-                                solution to achieve the zero carbon goal for your production process or business
-                                operation.
-                                Thanks to our wide product spectrum, we can easily design and implement a suitable
-                                solution for you.</p>
-                            <a class="btn btn-primary" href="https://rheintech-energy.github.io/solutions#industrial"> 了解更多</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Products Row -->
+        <!-- End EaaS Row -->
         <!-- Start Product Query Row -->
         <div class="row" id="product-query">
             <div class="content-block product-query-text">
@@ -440,11 +476,10 @@
     <!-- End Main Container -->
 </section>
 <!-- End #services-section -->
-</div>
-
+<!-- Begin #interactive image section-->
 <!-- TODO 
 <div class="container">
-    <p><strong>TODO: </strong>Update pictures, layout, texts</p>
+<p><strong>TODO: </strong>Update pictures, layout, texts</p>
 </div>
 -->
 </body>
@@ -476,17 +511,8 @@
                 <p><a href="https://rheintech-energy.github.io/cn/software"> 软件 </a></p>
                 -->
                 <p><a href="https://rheintech-energy.github.io/cn/products"> 产品 </a></p>
-                <ul>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#photovoltaics"> 光伏</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#energy_storage"> 储能</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#charging_stations"> 充电站</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#heat_pumps"> 热泵</a></li>
-                </ul>
-                <p><a href="https://rheintech-energy.github.io/cn/solutions"> 解决方案 </a></p>
-                <ul>
-                    <li><a href="https://rheintech-energy.github.io/cn/solutions#residential"> 户用</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/solutions#industrial"> 商用</a></li>
-                </ul>
+                <p><a href="https://rheintech-energy.github.io/cn/eaas">
+                        Energy as a Service </a></p>
                 <!--
                 <p><a href="https://rheintech-energy.github.io/cn/blog"> 博客 </a></p>
                 -->

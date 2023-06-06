@@ -9,7 +9,19 @@ Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
 * ==========================================================================
 */
 :root {
-    --rte-blue: #5B80C0
+    --rte-blue: #5B80C0;
+    --marker1_top: 50%;
+    --marker1_left: 70%;
+    --marker2_top: 62%;
+    --marker2_left: 20%;
+    --marker3_top: 25%;
+    --marker3_left: 40%;
+    --marker4_top: 25%;
+    --marker4_left: 20%;
+    --marker5_top: 75%;
+    --marker5_left: 40%;
+    --marker6_top: 65%;
+    --marker6_left: 67%;
 }
 
 .logo {
@@ -165,8 +177,9 @@ a:hover {
 }
 
 .product-entry .product-info .product-name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    height: 5rem;
 }
 
 .product-entry .product-info .product-alias {
@@ -177,6 +190,7 @@ a:hover {
 .product-entry .product-info .product-description {
     font-size: 20px;
     margin-bottom: 1rem;
+    height: 16rem;
 }
 
 .product-entry .image-container {
@@ -206,16 +220,19 @@ a:hover {
     color: white !important;
     font-size: 1.2rem;
 }
+
+/*
 * ==========================================================================
 * Company
 * ==========================================================================
+*
 */
 .key-tech-entry {
     width: 100%;
 }
 
 .key-tech-entry .key-tech-icon {
-    width: 30%
+    width: 30%;
 }
 
 .key-tech-entry .key-tech-info {
@@ -239,7 +256,7 @@ a:hover {
 
 .team-member-entry .team-member-info {
     font-size: 20px;
-    width: 60%
+    width: 60%;
 }
 
 /*
@@ -369,7 +386,6 @@ a:hover {
 
 
 @media screen and (max-width: 767px) {
-3
     .blog-entry .blog-entry-block h3 {
         font-size: 1.5em;
     }
@@ -430,6 +446,8 @@ a:hover {
     color: white;
     font-weight: bold;
     font-size: 2rem;
+    top: 60%;
+    transform: translateY(-50%);
 }
 
 .carousel-caption .carousel-title {
@@ -487,4 +505,160 @@ footer a:hover {
 footer .btn-group {
     font-size: 22px;
     padding-right: 10px;
+}
+
+
+/*
+* ==========================================================================
+* Interactive image
+* ==========================================================================
+*/
+
+.img-interactive {
+  max-width: 100%;
+  height: auto;
+}
+
+.map {
+  position: relative;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #ccc;
+}
+.map .img-interactive {
+  display: block;
+  width: 100%;
+}
+
+.map-popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 99;
+  width: 60%;
+  padding: 2rem;
+  background-color: #fff;
+  transition: all 300ms ease-in;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 24px rgba(0,0,0,0.22);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.map-popup > *:first-child { margin-top: 0; }
+.map-popup > *:last-child { margin-bottom: 0; }
+
+.map-popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.marker {
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff !important;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: var(--rte-blue);
+  transition: all 300ms;
+}
+
+.marker1 {
+  top: var(--marker1_top);
+  left: var(--marker1_left);
+}
+.marker2 {
+  top: var(--marker2_top);
+  left: var(--marker2_left);
+}
+.marker3 {
+  top: var(--marker3_top);
+  left: var(--marker3_left);
+}
+.marker4 {
+  top: var(--marker4_top);
+  left: var(--marker4_left);
+}
+.marker5 {
+  top: var(--marker5_top);
+  left: var(--marker5_left);
+}
+.marker6 {
+  top: var(--marker6_top);
+  left: var(--marker6_left);
+}
+
+
+@media only screen and (min-width:48em) {
+  .map-item {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    }
+    .map-item .marker {
+      top: auto;
+      left: auto;
+    }
+  
+  .map-item1 {
+    top: var(--marker1_top);
+    left: var(--marker1_left);
+  }
+  .map-item2 {
+    top: var(--marker2_top);
+    left: var(--marker2_left);
+  }
+  .map-item3 {
+    top: var(--marker3_top);
+    left: var(--marker3_left);
+  }
+  .map-item4 {
+    top: var(--marker4_top);
+    left: var(--marker4_left);
+  }
+  .map-item5 {
+    top: var(--marker5_top);
+    left: var(--marker5_left);
+  }
+  .map-item6 {
+    top: var(--marker6_top);
+    left: var(--marker6_left);
+  }
+
+  .map-popup {
+    position: absolute;
+    left: 58px;
+    width: 280px;
+    transform: translateY(-50%);
+  }
+  .map-popup:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    margin-top: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 16px 16px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+  
+  .map-popup.edge {
+    left: auto;
+    right: calc(100% + 24px);
+  }
+  .map-popup.edge:before {
+    left: auto;
+    right: -16px;
+    border-width: 16px 0 16px 16px;
+    border-color: transparent transparent transparent #fff;
+  }
 }

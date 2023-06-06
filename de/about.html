@@ -57,6 +57,7 @@
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://rheintech-energy.github.io/assets/css/cookieconsent.css" media="print"
         onload="this.media='all'">
+
 </head>
 
 <!-- Header -->
@@ -92,34 +93,44 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarProductDropdown">
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/de/products#photovoltaics">
-                                Photovoltaik</a></li>
+                                href="https://rheintech-energy.github.io/de/products#Dach-PV für gewerbliche und industrielle Gebäude">
+                                Dach-PV für gewerbliche und industrielle Gebäude</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/de/products#energy_storage">
+                                href="https://rheintech-energy.github.io/de/products#PV Haushalt">
+                                PV Haushalt</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://rheintech-energy.github.io/de/products#Freiflächen-Photovoltaikanlagen">
+                                Freiflächen-Photovoltaikanlagen</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://rheintech-energy.github.io/de/products#Batteriespeicher">
                                 Batteriespeicher</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/de/products#charging_stations">
-                                Ladestaion</a></li>
+                                href="https://rheintech-energy.github.io/de/products#Ladenstation">
+                                Ladenstation</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/de/products#heat_pumps">
+                                href="https://rheintech-energy.github.io/de/products#Wärmepumpen">
                                 Wärmepumpen</a></li>
                     </ul>
                 </li>
-                <!-- Solution dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="https://rheintech-energy.github.io/de/solutions"
-                        id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        lösungen
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
-                        <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/de/solutions#residential">
-                                Privatkunden</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/de/solutions#industrial">
-                                Geschäftskunden</a></li>
-                    </ul>
+                <!-- Solution Dropdown
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://rheintech-energy.github.io/de/solutions"
+                            id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            lösungen
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://rheintech-energy.github.io/de/solutions#residential">
+                                    Privatkunden</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://rheintech-energy.github.io/de/solutions#industrial">
+                                    Geschäftskunden</a></li>
+                        </ul>
+                    </li>
+                 -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rheintech-energy.github.io/de/eaas"> Energy-as-a-Service</a>
                 </li>
                 <!--
                 <li class="nav-item">
@@ -208,8 +219,35 @@
     });
   });
 </script>
+<!-- interactive image -->
+<script>
+jQuery(function($) {
+  var pop = $('.map-popup');
+  pop.click(function(e) {
+    e.stopPropagation();
+  });
+  
+  $('a.marker').click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(this).next('.map-popup').toggleClass('open');
+    $(this).parent().siblings().children('.map-popup').removeClass('open');
+  });
+  
+  $(document).click(function() {
+    pop.removeClass('open');
+  });
+  
+  pop.each(function() {
+    var w = $(window).outerWidth(),
+        edge = Math.round( ($(this).offset().left) + ($(this).outerWidth()) );
+    if( w < edge ) {
+      $(this).addClass('edge');
+    }
+  });
+});
+</script>
 <!-- End Scripts -->
-
 
 <body>
   <!-- Begin #carousel-section-products -->
@@ -224,12 +262,12 @@
     -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://rheintech-energy.github.io/assets/img/rheintech/background_banner.jpg" class="d-block w-100"
+        <img src="https://rheintech-energy.github.io/assets/img/rheintech/background_banner1.jpg" class="d-block w-100"
           alt="slide-1">
         <div class="carousel-caption d-none d-md-block">
-          <p class="carousel-title"> RheinTech Energy GmbH </p>
+          <p class="carousel-title"> RheinTech Energy </p>
           <p>
-            Schaffung einer grünen neuen Welt
+            Creating a Green New World
           </p>
         </div>
       </div>
@@ -266,19 +304,25 @@
     <!-- Begin About Us Row -->
     <div class="row">
       <div class="content-block">
-        <p class="content-block-title">About us</p>
+        <p class="content-block-title">Über uns</p>
         <p class="row text-start content-block-body">
-          RheinTech Energy GmbH is a renewable energy system integrator and solution provider based in Monheim am Rhein,
-          Nordrhein-Westfalen, Germany. We provide regenerative energy products and smart energy supply solutions such
-          as photovoltaics, energy storage, charging piles, heat pumps for domestic and commercial & industrial
-          applications, as well as installation, operation, and maintenance services for regenerative energy systems in
-          commercial & industrial buildings. Our team members come from renowned German University such as the Technical
-          University of Berlin, and have many years of experience in the design, construction, and development of low
-          carbon real estate.
+          RheinTech Energy (RTE) ist ein innovatives Unternehmen und einer der führenden Anbieter von Lösungen für erneuerbare Energien auf dem deutschen Photovoltaikmarkt. Die Teammitglieder verfügen über langjähsrige Erfahrung in den Bereichen Erneuerbare-Energien-Technologie und -Politikforschung sowie Immobilienbau und -entwicklung. RTE bietet ein umfassendes Leistungsspektrum von der Projektierung, Beratung, Finanzierung und Installation über den Betrieb und die Wartung von PV-Anlagen bis hin zu Energiespeichern, Ladesäulen und thermischen Systemen. sowie die Integration von Produkten wie Energiespeicher, Ladesäulen und Wärmepumpen. 
+
         </p>
       </div>
     </div>
     <!-- End About US Row -->
+    <!-- Begin Our mission Row -->
+    <div class="row">
+      <div class="content-block">
+        <p class="content-block-title">Unsere Vision</p>
+        <p class="row text-start content-block-body">
+          Wir setzen uns für Altruismus ein und verpflichten uns, die Energiewende zu fördern, die Gesellschaft mit grünem Strom zu versorgen und Handels- und Industrieunternehmen dabei zu unterstützen, ESG-Nachhaltigkeitsziele zu erreichen.
+
+        </p>
+      </div>
+    </div>
+    <!-- End Our mission Row -->
   </div>
 </section>
 <!-- End Company Section-->
@@ -312,17 +356,8 @@
                 <p><a href="https://rheintech-energy.github.io/de/software"> Software </a></p>
                 -->
                 <p><a href="https://rheintech-energy.github.io/de/products"> Produkte </a></p>
-                <ul>
-                    <li><a href="https://rheintech-energy.github.io/de/products#photovoltaics"> Photovoltaik</a></li>
-                    <li><a href="https://rheintech-energy.github.io/de/products#energy_storage"> Batteriespeicher</a></li>
-                    <li><a href="https://rheintech-energy.github.io/de/products#charging_stations"> Ladestaion</a></li>
-                    <li><a href="https://rheintech-energy.github.io/de/products#heat_pumps"> Wärmepumpen</a></li>
-                </ul>
-                <p><a href="https://rheintech-energy.github.io/de/solutions"> Lösungen </a></p>
-                <ul>
-                    <li><a href="https://rheintech-energy.github.io/de/solutions#residential"> Privatkunden</a></li>
-                    <li><a href="https://rheintech-energy.github.io/de/solutions#industrial"> Geschäftskunden</a></li>
-                </ul>
+                <p><a href="https://rheintech-energy.github.io/de/eaas">
+                        Energy as a Service </a></p>
                 <!--
                 <p><a href="https://rheintech-energy.github.io/de/blog"> Blog </a></p>
                 -->

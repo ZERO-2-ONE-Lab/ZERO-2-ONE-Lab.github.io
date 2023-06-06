@@ -57,6 +57,7 @@
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://rheintech-energy.github.io/assets/css/cookieconsent.css" media="print"
         onload="this.media='all'">
+
 </head>
 
 <!-- Header -->
@@ -92,34 +93,44 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarProductDropdown">
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#photovoltaics">
-                                光伏</a></li>
+                                href="https://rheintech-energy.github.io/cn/products#工商业屋顶光伏">
+                                工商业屋顶光伏</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#energy_storage">
+                                href="https://rheintech-energy.github.io/cn/products#户用光伏">
+                                户用光伏</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://rheintech-energy.github.io/cn/products#地面光伏电站">
+                                地面光伏电站</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://rheintech-energy.github.io/cn/products#储能">
                                 储能</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#charging_stations">
-                                充电站</a></li>
+                                href="https://rheintech-energy.github.io/cn/products#充电桩">
+                                充电桩</a></li>
                         <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/products#heat_pumps">
+                                href="https://rheintech-energy.github.io/cn/products#热泵">
                                 热泵</a></li>
                     </ul>
                 </li>
-                <!-- Solution dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="https://rheintech-energy.github.io/cn/solutions"
-                        id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        解决方案
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
-                        <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/solutions#residential">
-                                户用</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://rheintech-energy.github.io/cn/solutions#industrial">
-                                商用</a></li>
-                    </ul>
+                <!-- Solution Dropdown
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://rheintech-energy.github.io/cn/solutions"
+                            id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            解决方案
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://rheintech-energy.github.io/cn/solutions#residential">
+                                    户用</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://rheintech-energy.github.io/cn/solutions#industrial">
+                                    商用</a></li>
+                        </ul>
+                    </li>
+                 -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rheintech-energy.github.io/cn/eaas"> 能源即服务</a>
                 </li>
                 <!--
                 <li class="nav-item">
@@ -208,8 +219,35 @@
     });
   });
 </script>
+<!-- interactive image -->
+<script>
+jQuery(function($) {
+  var pop = $('.map-popup');
+  pop.click(function(e) {
+    e.stopPropagation();
+  });
+  
+  $('a.marker').click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(this).next('.map-popup').toggleClass('open');
+    $(this).parent().siblings().children('.map-popup').removeClass('open');
+  });
+  
+  $(document).click(function() {
+    pop.removeClass('open');
+  });
+  
+  pop.each(function() {
+    var w = $(window).outerWidth(),
+        edge = Math.round( ($(this).offset().left) + ($(this).outerWidth()) );
+    if( w < edge ) {
+      $(this).addClass('edge');
+    }
+  });
+});
+</script>
 <!-- End Scripts -->
-
 
 <body>
   <!-- Main Container -->
@@ -319,17 +357,8 @@
                 <p><a href="https://rheintech-energy.github.io/cn/software"> 软件 </a></p>
                 -->
                 <p><a href="https://rheintech-energy.github.io/cn/products"> 产品 </a></p>
-                <ul>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#photovoltaics"> 光伏</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#energy_storage"> 储能</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#charging_stations"> 充电站</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/products#heat_pumps"> 热泵</a></li>
-                </ul>
-                <p><a href="https://rheintech-energy.github.io/cn/solutions"> 解决方案 </a></p>
-                <ul>
-                    <li><a href="https://rheintech-energy.github.io/cn/solutions#residential"> 户用</a></li>
-                    <li><a href="https://rheintech-energy.github.io/cn/solutions#industrial"> 商用</a></li>
-                </ul>
+                <p><a href="https://rheintech-energy.github.io/cn/eaas">
+                        Energy as a Service </a></p>
                 <!--
                 <p><a href="https://rheintech-energy.github.io/cn/blog"> 博客 </a></p>
                 -->
