@@ -38,34 +38,45 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarProductDropdown">
                         <li><a class="dropdown-item"
-                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#photovoltaics">
-                                {{ site.data.locales[page.lang].photovoltaics | capitalize }}</a></li>
+                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_1.title }}">
+                                {{ site.data.locales[page.lang].marker_1.title }}</a></li>
                         <li><a class="dropdown-item"
-                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#energy_storage">
-                                {{ site.data.locales[page.lang].energy_storage | capitalize }}</a></li>
+                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_2.title }}">
+                                {{ site.data.locales[page.lang].marker_2.title }}</a></li>
                         <li><a class="dropdown-item"
-                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#charging_stations">
-                                {{ site.data.locales[page.lang].charging_stations | capitalize }}</a></li>
+                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_3.title }}">
+                                {{ site.data.locales[page.lang].marker_3.title }}</a></li>
                         <li><a class="dropdown-item"
-                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#heat_pumps">
-                                {{ site.data.locales[page.lang].heat_pumps | capitalize }}</a></li>
+                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_4.title }}">
+                                {{ site.data.locales[page.lang].marker_4.title }}</a></li>
+                        <li><a class="dropdown-item"
+                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_5.title }}">
+                                {{ site.data.locales[page.lang].marker_5.title }}</a></li>
+                        <li><a class="dropdown-item"
+                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_6.title }}">
+                                {{ site.data.locales[page.lang].marker_6.title }}</a></li>
                     </ul>
                 </li>
-                <!-- Solution dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions"
-                        id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        {{ site.data.locales[page.lang].solutions }}
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
-                        <li><a class="dropdown-item"
-                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions#residential">
-                                {{ site.data.locales[page.lang].residential | capitalize }}</a></li>
-                        <li><a class="dropdown-item"
-                                href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions#industrial">
-                                {{ site.data.locales[page.lang].industrial | capitalize }}</a></li>
-                    </ul>
+                <!-- Solution Dropdown
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions"
+                            id="navbarSolutionDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            {{ site.data.locales[page.lang].solutions }}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarSolutionDropdown">
+                            <li><a class="dropdown-item"
+                                    href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions#residential">
+                                    {{ site.data.locales[page.lang].residential | capitalize }}</a></li>
+                            <li><a class="dropdown-item"
+                                    href="{{ site.url }}{{ site.baseurl }}{{ append }}/solutions#industrial">
+                                    {{ site.data.locales[page.lang].industrial | capitalize }}</a></li>
+                        </ul>
+                    </li>
+                 -->
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ append }}/eaas"> {{
+                        site.data.locales[page.lang].eaas }}</a>
                 </li>
                 <!--
                 <li class="nav-item">

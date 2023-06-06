@@ -37,4 +37,6 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # webrick required, see https://github.com/jekyll/jekyll/issues/8523
-gem "webrick"
+# gem "webrick"
+
+gem "thin"

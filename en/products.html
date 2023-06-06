@@ -16,7 +16,7 @@ reference: products
     -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner.jpg" class="d-block w-100"
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner1.jpg" class="d-block w-100"
           alt="slide-1">
         <div class="carousel-caption d-none d-md-block">
           <p class="carousel-title">RheinTech Engergy</p>
@@ -58,145 +58,91 @@ reference: products
     <div class="row">
       <div class="content-block">
         <p class="content-block-title">Our products</p>
-        <div class="row content-block-body" id="photovoltaics">
-          <div class="col-12 col-md-4 product-entry"> 
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_1">
+        <div class="row content-block-body">
+          <div class="col-12 col-md-4 product-entry" id="{{ site.data.locales[page.lang].marker_1.title }}">
+            <a href="#{{ site.data.locales[page.lang].marker_1.title }}">
+              <div class="image-container img-responsive bg-image hover-zoom"> <img
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pv_roof_industrial.jpg"
+                  alt="Image of product 1">
+              </div>
+            </a>
+            <div class="product-info">
+              <p class="product-name">{{ site.data.locales[page.lang].marker_1.title }}</p>
+              <p class="product-description"> {{ site.data.locales[page.lang].marker_1.content }}</p>
+              <a class="btn btn-primary" type="application/pdf"
+                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 product-entry" id="{{ site.data.locales[page.lang].marker_2.title }}">
+            <a href="#{{ site.data.locales[page.lang].marker_2.title }}">
               <div class="image-container img-responsive bg-image hover-zoom"> <img
                   src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pv_roof.jpg" alt="Image of product 1">
               </div>
             </a>
             <div class="product-info">
-              <p class="product-name">Residential Rooftop PV</p>
-              <p class="product-alias">Rheintech PV-R</p>
-              <p class="product-description">Rheintech PV-R series is our PV product line...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
+              <p class="product-name">{{ site.data.locales[page.lang].marker_2.title }}</p>
+              <p class="product-description"> {{ site.data.locales[page.lang].marker_2.content }}</p>
+              <a class="btn btn-primary" type="application/pdf"
                 href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
             </div>
           </div>
-          <div class="col-12 col-md-4 product-entry">
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_2">
-              <div class="image-container img-responsive bg-image hover-zoom">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pv_balcony.jpg"
-                  alt="Image of product 2">
-              </div>
-            </a>
-            <div class="product-info">
-              <p class="product-name">Residential Balcony PV</p>
-              <p class="product-alias">Rheintech PV-B</p>
-              <p class="product-description">Rheintech PV-B series is our PV product line...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
-                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 product-entry">
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_2">
-              <div class="image-container img-responsive bg-image hover-zoom">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pv_roof_industrial.jpg"
-                  alt="Image of product 2">
-              </div>
-            </a>
-            <div class="product-info">
-              <p class="product-name">Rooftop PV for commercial & industrial buildings</p>
-              <p class="product-alias">Rheintech PV-RC</p>
-              <p class="product-description">Rheintech PV-B series is our PV product line...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
-                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
-            </div>
-          </div>
-        </div>
-        <div class="row content-block-body" id="storage">
-          <div class="col-12 col-md-6 product-entry"> 
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_1">
+
+          <div class="col-12 col-md-4 product-entry" id="{{ site.data.locales[page.lang].marker_3.title }}">
+            <a href="#{{ site.data.locales[page.lang].marker_3.title }}">
               <div class="image-container img-responsive bg-image hover-zoom"> <img
-                  src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/storage_residential.jpg" alt="Image of product 1">
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pv_power_plant.jpg"
+                  alt="Image of product 1">
               </div>
             </a>
             <div class="product-info">
-              <p class="product-name">Residential Energy Storage systems</p>
-              <p class="product-alias">Rheintech ES-R</p>
-              <p class="product-description">Rheintech ES-R series is our energy storage product line...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
+              <p class="product-name">{{ site.data.locales[page.lang].marker_3.title }}</p>
+              <p class="product-description"> {{ site.data.locales[page.lang].marker_3.content }}</p>
+              <a class="btn btn-primary" type="application/pdf"
                 href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
             </div>
           </div>
-          <div class="col-12 col-md-6 product-entry">
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_2">
-              <div class="image-container img-responsive bg-image hover-zoom">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/storage_commercial.jpg"
-                  alt="Image of product 2">
-              </div>
-            </a>
-            <div class="product-info">
-              <p class="product-name">Industrial/Commercial Energy Storage systems</p>
-              <p class="product-alias">Rheintech ES-C</p>
-              <p class="product-description">Rheintech ES-C series is our energy storage product line...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
-                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
-            </div>
-          </div>
+
         </div>
         <div class="row content-block-body">
-          <div class="col-12 col-md-6 product-entry" id="charging" > 
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_1">
+          <div class="col-12 col-md-4 product-entry" id="{{ site.data.locales[page.lang].marker_4.title }}">
+            <a href="#{{ site.data.locales[page.lang].marker_4.title }}">
+              <div class="image-container img-responsive bg-image hover-zoom"> <img
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/storage_commercial.jpg"
+                  alt="Image of product 1">
+              </div>
+            </a>
+            <div class="product-info">
+              <p class="product-name">{{ site.data.locales[page.lang].marker_4.title }}</p>
+              <p class="product-description"> {{ site.data.locales[page.lang].marker_4.content }}</p>
+              <a class="btn btn-primary" type="application/pdf"
+                href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 product-entry" id="{{ site.data.locales[page.lang].marker_5.title }}">
+            <a href="#{{ site.data.locales[page.lang].marker_5.title }}">
               <div class="image-container img-responsive bg-image hover-zoom"> <img
                   src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/charging.jpg" alt="Image of product 1">
               </div>
             </a>
             <div class="product-info">
-              <p class="product-name">Charging Station</p>
-              <p class="product-alias">Rheintech CS</p>
-              <p class="product-description">Rheintech CS series is our charging station product line, consisting of  PV carport and charging station systems...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
+              <p class="product-name">{{ site.data.locales[page.lang].marker_5.title }}</p>
+              <p class="product-description"> {{ site.data.locales[page.lang].marker_5.content }}</p>
+              <a class="btn btn-primary" type="application/pdf"
                 href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
             </div>
           </div>
-          <div class="col-12 col-md-6 product-entry id="pump">
-            <a href="{{ site.url }}{{ site.baseurl }}/products/product_2">
-              <div class="image-container img-responsive bg-image hover-zoom">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pump.jpg"
-                  alt="Image of product 2">
+          <div class="col-12 col-md-4 product-entry" id="{{ site.data.locales[page.lang].marker_6.title }}">
+            <a href="#{{ site.data.locales[page.lang].marker_6.title }}">
+              <div class="image-container img-responsive bg-image hover-zoom"> <img
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pump.jpg" alt="Image of product 1">
               </div>
             </a>
             <div class="product-info">
-              <p class="product-name">Heat pump</p>
-              <p class="product-alias">Rheintech HP</p>
-              <p class="product-description">Rheintech HP series is our heat pump product line, which is blahblah...
-              <ul>
-                <li>Parameter1: XXX</li>
-                <li>Parameter2: XXX</li>
-                <li>Parameter3: XXX</li>
-              </ul>
-              </p> <a class="btn btn-primary" type="application/pdf"
+              <p class="product-name">{{ site.data.locales[page.lang].marker_6.title }}</p>
+              <p class="product-description"> {{ site.data.locales[page.lang].marker_6.content }}</p>
+              <a class="btn btn-primary" type="application/pdf"
                 href="{{ site.url }}{{ site.baseurl }}/assets/docs/products_datasheet.pdf">Download Product Sheet</a>
             </div>
           </div>
@@ -207,12 +153,14 @@ reference: products
     <!-- Start Product Query Row -->
     <div class="row" id="product-query">
       <div class="content-block product-query-text">
-        <p>You want to know more about our products?</p>
-        <p>Our sales team will be happy to advise you.</p>
-        <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">Request Now</a>
+        <p>{{ site.data.locales[page.lang].query_text_1 }}</p>
+        <p>{{ site.data.locales[page.lang].query_text_2 }}</p>
+        <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">{{
+          site.data.locales[page.lang].query_text_3 }}</a>
       </div>
     </div>
     <!-- End Product Query Row -->
+  </div>
 </section>
 <!-- End Products Section-->
 <!--

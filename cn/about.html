@@ -16,10 +16,10 @@ reference: about
     -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner.jpg" class="d-block w-100"
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner1.jpg" class="d-block w-100"
           alt="slide-1">
         <div class="carousel-caption d-none d-md-block">
-          <p class="carousel-title"> RheinTech Energy GmbH </p>
+          <p class="carousel-title"> RheinTech Energy </p>
           <p>
             {{ site.data.locales[page.lang].slogan }}
           </p>
@@ -58,13 +58,23 @@ reference: about
     <!-- Begin About Us Row -->
     <div class="row">
       <div class="content-block">
-        <p class="content-block-title">关于我们</p>
+        <p class="content-block-title">{{ site.data.locales[page.lang].about }}</p>
         <p class="row text-start content-block-body">
-          莱茵科技能源有限公司是一家位于德国北威州莱茵河畔蒙海姆市的可再生能源系统集成商，解决方案提供商。我们提供应用于家庭和工商业的光伏、储能、充电桩、热泵等新能源产品和智慧能源供应解决方案，并提供工商业建筑可再生能源系统安装和运维服务。我们的团队成员来自柏林工业大学等德国著名高等学府，拥有多年的低碳房地产设计、建造和开发经验。
+          {{ site.data.locales[page.lang].about_us_text}}
         </p>
       </div>
     </div>
     <!-- End About US Row -->
+    <!-- Begin Our mission Row -->
+    <div class="row">
+      <div class="content-block">
+        <p class="content-block-title">{{ site.data.locales[page.lang].mission }}</p>
+        <p class="row text-start content-block-body">
+          {{ site.data.locales[page.lang].mission_text}}
+        </p>
+      </div>
+    </div>
+    <!-- End Our mission Row -->
   </div>
 </section>
 <!-- End Company Section-->

@@ -3,50 +3,45 @@ layout: default_style
 permalink: /de
 reference: home
 ---
+
+{% if page.lang == site.default_lang %}
+{% assign append = "" %}
+{% else %}
+{% assign append = site.data.locales[page.lang].append %}
+{% endif %}
+
 <!-- Begin #carousel-section-home -->
 <section id="carousel-section-home">
     <div id="carousel-home" class="carousel slide" data-bs-ride="false">
-        <!--
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner.jpg"
-                    class="d-block w-100" alt="slide-1">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner1.jpg"
+                    class="d-block w-100" alt="Lösungen mit Photovoltaik-Batteriespeicher-Ladesäulen">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="carousel-title">RheinTech Energy</p>
-                    <p>
-                        {{ site.data.locales[page.lang].slogan }}
-                    </p>
-                </div>
-            </div>
-            <!--
-            <div class="carousel-item">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/slider/alcides/slide2.jpeg"
-                    class="d-block w-100" alt="slide-2">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="carousel-title">Second slide label</p>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <p class="carousel-title">{{ site.data.locales[page.lang].carousel-title-1 }}</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/slider/alcides/slide3.jpeg"
-                    class="d-block w-100" alt="slide-3">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner2.jpg"
+                    class="d-block w-100" alt="Rooftop PV, Solardach">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="carousel-title">Third slide label</p>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <p class="carousel-title">{{ site.data.locales[page.lang].carousel-title-2 }}</p>
                 </div>
             </div>
-            -->
+            <div class="carousel-item">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/background_banner3.jpg"
+                    class="d-block w-100" alt="Solarzellen, Photovoltaik, Solaranlage">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="carousel-title">{{ site.data.locales[page.lang].carousel-title-3 }}</p>
+                </div>
+            </div>
         </div>
-        <!--
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
             <span class="fa-solid fa-angles-left fa-3x" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -55,11 +50,9 @@ reference: home
             <span class="fa-solid fa-angles-right fa-3x" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-        -->
     </div>
 </section>
 <!-- End #carousel-section-home -->
-
 
 <!-- Begin #profile-section -->
 <section id="profile" class="section-wrapper">
@@ -72,166 +65,162 @@ reference: home
                     Why RheinTech Energy?
                 </div>
                 <div class="row text-start content-block-body">
-                    <div class="col-12">
-                    Real estate developers and general contractors alike face a challenge: the complexity of integrating
-                    new energy sources into existing buildings or new construction. the RheinTech Energy team has
-                    qualified energy management consultants who can provide technical and policy consulting services
-                    during the planning and design phase of a project, creating room for your own core business. We can
-                    provide a full range of quality services from project planning and design consulting, renewable
-                    energy product procurement, installation, operation and maintenance, and financing solutions,
-                    leaving you with no worries.
+                    <div class="col-md-12">
+                        <ul>
+                            <li>{{ site.data.locales[page.lang].reason_1 }} </li>
+                            <li>{{ site.data.locales[page.lang].reason_2 }} </li>
+                            <li>{{ site.data.locales[page.lang].reason_3 }} </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Feature Row -->
-        <!-- Begin Products Row-->
+        <!-- Begin EaaS Row -->
         <div class="row">
             <div class="content-block">
                 <div class="content-block-title">
-                    <p>Our products</p>
+                    <p>Energy-as-a-Service</p>
                 </div>
-                <div class="row content-block-body">
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="{{ site.url }}{{ site.baseurl }}/products#photovoltaics">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pv_roof.jpg"
-                                    alt="Image of product 1">
+                <!-- Begin EaaS Interactive picture row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="map">
+                            <div class="map-item map-item1">
+                                <a class="marker marker1" href="#marker1"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker1" class="map-popup">
+                                    <h3 class="popup-title"> {{ site.data.locales[page.lang].marker_1.title }} </h3>
+                                    <p> {{ site.data.locales[page.lang].marker_1.content }} </p>
+                                    <a class="btn"
+                                        href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_1.title }}">
+                                        {{ site.data.locales[page.lang].learn_more }}</a>
+                                </aside>
                             </div>
-                        </a>
+
+                            <div class="map-item map-item2">
+                                <a class="marker marker2" href="#marker2"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker2" class="map-popup">
+                                    <h3 class="popup-title"> {{ site.data.locales[page.lang].marker_2.title }} </h3>
+                                    <p> {{ site.data.locales[page.lang].marker_2.content }} </p>
+                                    <a class="btn"
+                                        href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_2.title }}">
+                                        {{ site.data.locales[page.lang].learn_more }}</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item3">
+                                <a class="marker marker3" href="#marker3"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker3" class="map-popup">
+                                    <h3 class="popup-title"> {{ site.data.locales[page.lang].marker_3.title }} </h3>
+                                    <p> {{ site.data.locales[page.lang].marker_3.content }} </p>
+                                    <a class="btn"
+                                        href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_3.title }}">
+                                        {{ site.data.locales[page.lang].learn_more }}</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item4">
+                                <a class="marker marker4" href="#marker4"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker4" class="map-popup">
+                                    <h3 class="popup-title"> {{ site.data.locales[page.lang].marker_4.title }} </h3>
+                                    <p> {{ site.data.locales[page.lang].marker_4.content }} </p>
+                                    <a class="btn"
+                                        href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_4.title }}">
+                                        {{ site.data.locales[page.lang].learn_more }}</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item5">
+                                <a class="marker marker5" href="#marker5"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker5" class="map-popup">
+                                    <h3 class="popup-title"> {{ site.data.locales[page.lang].marker_5.title }} </h3>
+                                    <p> {{ site.data.locales[page.lang].marker_5.content }} </p>
+                                    <a class="btn"
+                                        href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_5.title }}">
+                                        {{ site.data.locales[page.lang].learn_more }}</a>
+                                </aside>
+                            </div>
+
+                            <div class="map-item map-item6">
+                                <a class="marker marker6" href="#marker6"><i
+                                        class="fa-solid fa-plus fa-beat fa-lg"></i></a>
+
+                                <aside id="marker6" class="map-popup">
+                                    <h3 class="popup-title"> {{ site.data.locales[page.lang].marker_6.title }} </h3>
+                                    <p> {{ site.data.locales[page.lang].marker_6.content }} </p>
+                                    <a class="btn"
+                                        href="{{ site.url }}{{ site.baseurl }}{{ append }}/products#{{ site.data.locales[page.lang].marker_6.title }}">
+                                        {{ site.data.locales[page.lang].learn_more }}</a>
+                                </aside>
+                            </div>
+
+                            <img class="img-interactive"
+                                src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/industrial.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- End EaaS Interactive picture row -->
+                <div class="row content-block-body">
+                    <div class="col-12 col-md-4 product-entry">
                         <div class="product-info">
                             <p class="product-name">
-                                {{ site.data.locales[page.lang].photovoltaics | capitalize }}
+                                {{ site.data.locales[page.lang].eaas_1.title | capitalize }}
                             <p>
+                                <!--
                             <p class="product-alias">Put product serial here, e.g., Rheintech PV</p>
-                            <p class="product-description">Rheintech PV series is our photovoltaics products ranging
-                                from 450W to 1000W, blahblah.</p>
+                            -->
+                            <p class="product-description"> {{ site.data.locales[page.lang].eaas_1.content }}</p>
                             <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#photovolatics">
                                 {{
                                 site.data.locales[page.lang].learn_more }}</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="{{ site.url }}{{ site.baseurl }}/products#storage">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/storage_commercial.jpg"
-                                    alt="Image of product 2">
-                            </div>
-                        </a>
+                    <div class="col-12 col-md-4 product-entry">
                         <div class="product-info">
                             <p class="product-name">
-                                {{ site.data.locales[page.lang].energy_storage | capitalize }}
+                                {{ site.data.locales[page.lang].eaas_2.title | capitalize }}
                             </p>
+                            <!--
                             <p class="product-alias">Put product serial here </p>
-                            <p class="product-description"> Rheintech ES series is our energy storage products, with
-                                capacity from XX to YY Ah, blahblah.</p>
+                            -->
+                            <p class="product-description"> {{ site.data.locales[page.lang].eaas_2.content }}</p>
                             <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#charging"> {{
                                 site.data.locales[page.lang].learn_more }}</a>
                         </div>
                     </div>
-                </div>
-                <div class="row content-block-body">
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="{{ site.url }}{{ site.baseurl }}/products#charging">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/charging.jpg"
-                                    alt="Image of product 1">
-                            </div>
-                        </a>
+                    <div class="col-12 col-md-4 product-entry">
                         <div class="product-info">
                             <p class="product-name">
-                                {{ site.data.locales[page.lang].charging_stations | capitalize }}
-                            <p>
-                            <p class="product-alias"> Rheintech CS</p>
-                            <p class="product-description">Rheintech CS series is our charging station products which
-                                consist of
-                                blahblah.</p>
-                            <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#charging"> {{
-                                site.data.locales[page.lang].learn_more }}</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="{{ site.url }}{{ site.baseurl }}/products#pump">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/pump.jpg"
-                                    alt="Image of product 2">
-                            </div>
-                        </a>
-                        <div class="product-info">
-                            <p class="product-name">
-                                {{ site.data.locales[page.lang].heat_pumps | capitalize }}
+                                {{ site.data.locales[page.lang].eaas_3.title | capitalize }}
                             </p>
-                            <p class="product-alias">Rheintech HP</p>
-                            <p class="product-description"> Rheintech HP series is our heat pump products which consists
-                                of, blahblah.</p>
-                            <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#pump"> {{
+                            <!--
+                            <p class="product-alias">Put product serial here </p>
+                            -->
+                            <p class="product-description"> {{ site.data.locales[page.lang].eaas_3.content }}</p>
+                            <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#charging"> {{
                                 site.data.locales[page.lang].learn_more }}</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Products Row -->
-        <!-- Begin Solutions Row-->
-        <div class="row">
-            <div class="content-block">
-                <div class="content-block-title">
-                    <p>Our solutions</p>
-                </div>
-                <div class="row content-block-body">
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="{{ site.url }}{{ site.baseurl }}/solutions#residential">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/residential.jpg"
-                                    alt="Image of product 1">
-                            </div>
-                        </a>
-                        <div class="product-info">
-                            <p class="product-name">
-                                {{ site.data.locales[page.lang].residential | capitalize }}
-                            <p>
-                            <p class="product-description">For residential applications, we can provide different
-                                combinations of our products to greenify your daily life:</p>
-                            <ul>
-                                <li>
-                                    PV + Battery Storage + Charging Pile
-                                </li>
-                                <li>
-                                    PV + Battery Storage + Charging Pile + Heat pumps
-                                </li>
-                            </ul>
-                            <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#robots"> {{
-                                site.data.locales[page.lang].learn_more }}</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 product-entry">
-                        <a href="{{ site.url }}{{ site.baseurl }}/solutions#industrial">
-                            <div class="image-container img-responsive bg-image hover-zoom">
-                                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rheintech/industrial.jpg"
-                                    alt="Image of product 2">
-                            </div>
-                        </a>
-                        <div class="product-info">
-                            <p class="product-name">
-                                {{ site.data.locales[page.lang].industrial | capitalize }}
-                            </p>
-                            <p class="product-description"> For industrial applications, we can provide a package
-                                solution to achieve the zero carbon goal for your production process or business operation. 
-                                Thanks to our wide product spectrum, we can easily design and implement a suitable solution for you.</p>
-                            <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/solutions#industrial"> {{
-                                site.data.locales[page.lang].learn_more }}</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Products Row -->
+        <!-- End EaaS Row -->
         <!-- Start Product Query Row -->
         <div class="row" id="product-query">
             <div class="content-block product-query-text">
-                <p>You want to know more about our products and solutions？</p>
-                <p>Our sales team will be happy to help you. </p>
-                <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">Request now</a>
+                <p>{{ site.data.locales[page.lang].query_text_1 }}</p>
+                <p>{{ site.data.locales[page.lang].query_text_2 }}</p>
+                <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">{{ site.data.locales[page.lang].query_text_3 }}</a>
             </div>
         </div>
         <!-- End Product Query Row -->
@@ -239,10 +228,9 @@ reference: home
     <!-- End Main Container -->
 </section>
 <!-- End #services-section -->
-</div>
-
+<!-- Begin #interactive image section-->
 <!-- TODO 
 <div class="container">
-    <p><strong>TODO: </strong>Update pictures, layout, texts</p>
+<p><strong>TODO: </strong>Update pictures, layout, texts</p>
 </div>
 -->
