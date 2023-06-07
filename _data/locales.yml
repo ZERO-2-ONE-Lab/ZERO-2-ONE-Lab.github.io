@@ -20,11 +20,11 @@ en:
   carousel-title-3: Energy-as-a-Service
   reason_1: Energy-as-a-Service (EaaS) concept to reduce CO2 emissions
   reason_2: Individual concepts, consulting, financing, integrated planning, implementation
-  reason_3: Services in the field of PV systems, battery storage, charging columns and heat pumps 
+  reason_3: One-Stop service in the field of PV systems, battery storage, charging stations and heat pumps 
   eaas_1: 
     title: Individual Services
     content: >
-      We offer suitable products and solutions in the field of renewable energy with planning for the modernization of residential, commercial, and industrial energy systems according to your needs. 
+      We offer the appropriate products and customized one-stop renewable energy solutions for residential, commercial and industrial customers to save on electricity costs and meet your company's ESG requirements. 
   eaas_2: 
     title: Financing Services
     content: >
@@ -32,7 +32,7 @@ en:
   eaas_3: 
     title: Construction Services
     content: >
-      We can assemble a team of experienced engineers, electricians and installers, control the entire installation process and provide a reliable, high quality construction service, and accompany the acceptance and commissioning to completion with certificates. 
+      We can assemble a team of experienced engineers, electricians and Installers, and provide a reliable, high quality construction service, and follow acceptance and commissioning through to completion with certificates. 
   marker_1: 
     title: Rooftop PV for commercial & industrial buildings
     content: >
@@ -125,31 +125,31 @@ de:
   carousel-title-1: RheinTech Energy
   carousel-title-2: Creating a Green New World
   carousel-title-3: Energy-as-a-Service
-  reason_1: Energy-as-a-Service (EaaS)-Konzept, um CO2-Emissionen zu reduzieren
-  reason_2: Individuellen Konzepten, Beratung, Planung, Finanzierung, Ausführung, Implementierung
+  reason_1: Mit dem Energy-as-a-Service (EaaS)-Konzept, um CO2-Emissionen zu reduzieren
+  reason_2: Individuellen Konzepten, Beratung, Planung, Finanzierung, Implementierung
   reason_3: Leistungen im Bereich PV-Anlagen, Batteriespeicher, Ladesäulen und Wärmepumpen aus einer Hand
   eaas_1:
     title: Individuelle Dienstleistungen
     content: > 
-      Wir bieten passende Produkte und Lösungen im Bereich der erneuerbaren Energien mit Planung für die Modernisierung von privaten, gewerblichen und industriellen Energiesystemen nach Ihren Bedürfnissen. 
+      Wir bieten die geeigneten Produkte und individuelle Lösungen aus einer Hand im Bereich der erneuerbaren Energien für Privat-, Gewerbe- und Industriekunden, um Stromkosten zu sparen und die ESG-Anforderungen Ihres Unternehmens zu erfüllen.
   eaas_2: 
     title: Finanzierung
     content: >
       Professionelle Unterstützung bei allen Aspekten der Finanzierung von Anlagen zur Nutzung erneuerbarer Energien, wie z. B. Einnahmemodelle und das Konzept von Energy-as-a-Service (EaaS) aus der Kapitalanlage, um Ihre finanziellen Möglichkeiten auszuschöpfen. 
   eaas_3: 
-    title: Ausführung
+    title: Implementierung
     content: >
-      Wir können ein Team von erfahrenen Ingenieuren, Elektrikern und Installateuren zusammenstellen, den gesamten Installationsprozess zu kontrollieren und einen zuverlässigen, qualitativ hochwertigen Bauservice zu gewährleisten, und die Abnahme und Inbetriebnahme bis zur Fertigstellung mit Bescheinigungen zu begleiten. 
+      Wir können ein Team von erfahrenen Ingenieuren, Elektrikern und Installateuren zusammenstellen, und einen zuverlässigen, qualitativ hochwertigen Bauservice zu gewährleisten, und die Abnahme und Inbetriebnahme bis zur Fertigstellung mit Bescheinigungen zu begleiten. 
   marker_1: 
-    title: Dach-PV für gewerbliche und industrielle Gebäude
+    title: PV-Anlagen für G&I Gebäude
     content: >
       Die Umsetzung maßgeschneiderter Lösungen für gewerbliche und industrielle Aufdach-PV-Anlagen kann dazu beitragen, die Effizienz des Energiesystems zu verbessern, die Stromkosten zu senken, CO2-Emissionen zu reduzieren und gleichzeitig die ESG-Nachhaltigkeitsziele des Unternehmens zu erreichen.
   marker_2: 
-    title: PV Haushalt
+    title: PV-Anlagen für den Hausgebrauch
     content: >
       Aufgrund der hohen Kosten für Haushaltsstrom reduziert der Einsatz einer PV-Anlagen mit Speichersystemlösung die direkte Einspeisung von PV-Strom in das Netz (die deutsche PV-Einspeisevergütung liegt bei rund 9 Cent) und maximiert die Menge des erzeugten PV-Stroms für den Eigenverbrauch, ohne das Stromnetz zu belasten.
   marker_3:
-    title: Freiflächen-Photovoltaikanlagen
+    title: Freiflächen-PV-Anlagen
     content: >
       Das Erneuerbare-Energien-Gesetz (EEG) 2023 ist ein großer Gewinn für die Entwicklung der Agro-Photovoltaik (APV) in Deutschland. Es ändert das Ausschreibungsmodell für APV-Anlagen von einer speziellen Ausschreibung zu einer allgemeinen Ausschreibung und vereinfacht die Komplexität des Baus von APV-Anlagen.
   marker_4:
