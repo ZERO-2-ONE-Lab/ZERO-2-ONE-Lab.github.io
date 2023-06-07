@@ -152,7 +152,6 @@ a:hover {
 .feature-entry .feature-body {
     font-size: 20px;
     margin-bottom: 1rem;
-    height: 16rem;
 }
 
 .feature-entry .btn-primary {
@@ -198,7 +197,6 @@ a:hover {
 .product-entry .product-info .product-description {
     font-size: 20px;
     margin-bottom: 1rem;
-    height: 16rem;
 }
 
 .product-entry .image-container {
@@ -218,7 +216,7 @@ a:hover {
 }
 
 .product-query-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -227,6 +225,25 @@ a:hover {
     background: var(--rte-blue);
     color: white !important;
     font-size: 1.2rem;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .product-query-text {
+        font-size: 1.5rem;
+    }
+
+    #product-query .btn-primary{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-query-text {
+        font-size: 1.5rem;
+    }
+
+    #product-query .btn-primary{
+        font-size: 1.2rem;
+    }
 }
 
 /*
@@ -551,8 +568,18 @@ footer .btn-group {
   box-shadow: 0 0 24px rgba(0,0,0,0.22);
   opacity: 0;
   visibility: hidden;
+  font-size: 0.75rem;
+  text-align: left;
 }
-
+.map-popup .popup-description {
+    text-align: left;
+}
+.map-popup .btn-primary {
+    margin-top: 0.5rem;
+    background: var(--rte-blue);
+    color: white !important;
+    font-size: 0.75rem;
+}
 .map-popup > *:first-child { margin-top: 0; }
 .map-popup > *:last-child { margin-bottom: 0; }
 
@@ -560,7 +587,10 @@ footer .btn-group {
   opacity: 1;
   visibility: visible;
 }
-
+.popup-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
 .marker {
   position: absolute;
   z-index: 1;
