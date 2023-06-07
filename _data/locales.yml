@@ -34,7 +34,7 @@ en:
     content: >
       We can assemble a team of experienced engineers, electricians and Installers, and provide a reliable, high quality construction service, and follow acceptance and commissioning through to completion with certificates. 
   marker_1: 
-    title: Rooftop PV for commercial & industrial buildings
+    title: PV for Industry & Commerce
     content: >
       Implementing customized solutions for commercial and industrial rooftop PV can help improve energy system efficiency, reduce electricity costs, reduce CO2 emissions, while achieving corporate ESG sustainability goals.
   marker_2: 
@@ -42,7 +42,7 @@ en:
     content: >
       Due to the high cost of household electricity, the use of a PV system with storage system solution reduces the direct feed-in of PV electricity to the grid (the German PV feed-in tariff is around 9 cents) and maximizes the amount of PV electricity generated for self-consumption without burdening the grid.
   marker_3: 
-    title: Ground-mounted photovoltaic power plants
+    title: Ground-mounted PV power stations
     content: >
       The 2023 Renewable Energy Act (EEG) is a major benefit to the development of Agro-Photovoltaik (APV) in Germany, changing the bidding model for APV plants from a special tender to a general tender and simplifying the complexities of APV plant construction.
   marker_4: 
@@ -141,7 +141,7 @@ de:
     content: >
       Wir können ein Team von erfahrenen Ingenieuren, Elektrikern und Installateuren zusammenstellen, und einen zuverlässigen, qualitativ hochwertigen Bauservice zu gewährleisten, und die Abnahme und Inbetriebnahme bis zur Fertigstellung mit Bescheinigungen zu begleiten. 
   marker_1: 
-    title: PV-Anlagen für G&I Gebäude
+    title: PV-Anlagen für Gewerbe & Industrie
     content: >
       Die Umsetzung maßgeschneiderter Lösungen für gewerbliche und industrielle Aufdach-PV-Anlagen kann dazu beitragen, die Effizienz des Energiesystems zu verbessern, die Stromkosten zu senken, CO2-Emissionen zu reduzieren und gleichzeitig die ESG-Nachhaltigkeitsziele des Unternehmens zu erreichen.
   marker_2: 
@@ -149,7 +149,7 @@ de:
     content: >
       Aufgrund der hohen Kosten für Haushaltsstrom reduziert der Einsatz einer PV-Anlagen mit Speichersystemlösung die direkte Einspeisung von PV-Strom in das Netz (die deutsche PV-Einspeisevergütung liegt bei rund 9 Cent) und maximiert die Menge des erzeugten PV-Stroms für den Eigenverbrauch, ohne das Stromnetz zu belasten.
   marker_3:
-    title: Freiflächen-PV-Anlagen
+    title: Freiflächen-PV-Park
     content: >
       Das Erneuerbare-Energien-Gesetz (EEG) 2023 ist ein großer Gewinn für die Entwicklung der Agro-Photovoltaik (APV) in Deutschland. Es ändert das Ausschreibungsmodell für APV-Anlagen von einer speziellen Ausschreibung zu einer allgemeinen Ausschreibung und vereinfacht die Komplexität des Baus von APV-Anlagen.
   marker_4:
