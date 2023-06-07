@@ -171,45 +171,39 @@ reference: home
                 </div>
                 <!-- End EaaS Interactive picture row -->
                 <div class="row content-block-body">
-                    <div class="col-12 col-md-4 product-entry">
-                        <div class="product-info">
-                            <p class="product-name">
-                                {{ site.data.locales[page.lang].eaas_1.title | capitalize }}
-                            <p>
-                                <!--
+                    <div class="col-12 col-md-4 feature-entry">
+                        <p class="feature-title">
+                            {{ site.data.locales[page.lang].eaas_1.title | capitalize }}
+                        <p>
+                            <!--
                             <p class="product-alias">Put product serial here, e.g., Rheintech PV</p>
                             -->
-                            <p class="product-description"> {{ site.data.locales[page.lang].eaas_1.content }}</p>
-                            <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#photovolatics">
-                                {{
-                                site.data.locales[page.lang].learn_more }}</a>
-                        </div>
+                        <p class="feature-body"> {{ site.data.locales[page.lang].eaas_1.content }}</p>
+                        <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#photovolatics">
+                            {{
+                            site.data.locales[page.lang].learn_more }}</a>
                     </div>
-                    <div class="col-12 col-md-4 product-entry">
-                        <div class="product-info">
-                            <p class="product-name">
+                    <div class="col-12 col-md-4 feature-entry">
+                            <p class="feature-title">
                                 {{ site.data.locales[page.lang].eaas_2.title | capitalize }}
                             </p>
                             <!--
                             <p class="product-alias">Put product serial here </p>
                             -->
-                            <p class="product-description"> {{ site.data.locales[page.lang].eaas_2.content }}</p>
+                            <p class="feature-body"> {{ site.data.locales[page.lang].eaas_2.content }}</p>
                             <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#charging"> {{
                                 site.data.locales[page.lang].learn_more }}</a>
-                        </div>
                     </div>
-                    <div class="col-12 col-md-4 product-entry">
-                        <div class="product-info">
-                            <p class="product-name">
+                    <div class="col-12 col-md-4 feature-entry">
+                            <p class="feature-title">
                                 {{ site.data.locales[page.lang].eaas_3.title | capitalize }}
                             </p>
                             <!--
                             <p class="product-alias">Put product serial here </p>
                             -->
-                            <p class="product-description"> {{ site.data.locales[page.lang].eaas_3.content }}</p>
+                            <p class="feature-body"> {{ site.data.locales[page.lang].eaas_3.content }}</p>
                             <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/products#charging"> {{
                                 site.data.locales[page.lang].learn_more }}</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -220,7 +214,8 @@ reference: home
             <div class="content-block product-query-text">
                 <p>{{ site.data.locales[page.lang].query_text_1 }}</p>
                 <p>{{ site.data.locales[page.lang].query_text_2 }}</p>
-                <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">{{ site.data.locales[page.lang].query_text_3 }}</a>
+                <a class="btn btn-primary" href="{{ site.url }}{{ site.baseurl }}/contact#contact_form">{{
+                    site.data.locales[page.lang].query_text_3 }}</a>
             </div>
         </div>
         <!-- End Product Query Row -->
