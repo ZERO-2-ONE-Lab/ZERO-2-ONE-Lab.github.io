@@ -9,11 +9,12 @@ en:
   contact: contact
   eaas: Energy-as-a-Service
   eaas_text: >
-    Energy-as-a-Service (EaaS) is a concept where we not only provide the energy generation, but also take over the entire operation and maintenance of the plant. This allows investors to focus on their core competencies while benefiting from the financial advantages of renewable energies.  
+    Energy-as-a-Service (EaaS) is a concept where we not only provide the energy generation, but also take over the entire operation and maintenance of the plant. This allows investors/property owners to focus on their core competencies while benefiting from the financial advantages of renewable energies.  
 
-    We supply large customers with the photovoltaic system, installation materials, storage, charging boxes and stations, heat pump, and other green energy equipment. We supply ready-made plant without you having to take care of it yourself. We supply energy system with financing, without you having to invest for it. We deliver Energy-as-a-Service (EaaS): designs, installs, operates, and owns distributed PV systems and provides solutions through an Energy-as-a-Service model that help customers reduce risk and complexity while meeting their key ESG sustainability goals and improving the energy efficiency and resilience of their energy infrastructure.    
+    We provide large customers with the photovoltaic system, installation materials, storage, charging boxes or stations, heat pump, and other green energy systems from a single source. We deliver Energy-as-a-Service (EaaS): designs, develops, installs, operates, and owns distributed PV systems and provides solutions through an Energy-as-a-Service model that help customers reduce risk and complexity while achieving their key ESG sustainability goals and improving the energy efficiency and resilience of their energy infrastructure and optimizing energy costs.   
 
-    To maximize your financial options when financing renewable energy assets, we can help you develop customized financing solutions. This can include assessing the viability of the investment, selecting the right financing instruments such as loans, leasing, or equity participation, identifying incentive programs, and assisting you in applying for financing. Please provide us with more details about your project so that we can provide you with more specific advice. 
+    To leverage your renewable energy financing, we can help you develop customized financing solutions. This can include assessing the viability of the investment, selecting the right financing instruments such as loans, leasing, or equity participation, identifying incentive programs, and assisting you in applying for financing. We can even provide financing. Please let us know more details about your project so we can provide more specific advice. 
+
   slogan: Creating a Green New World
   carousel-title-1: RheinTech Energy
   carousel-title-2: Creating A Green New World
@@ -28,35 +29,36 @@ en:
   eaas_2: 
     title: Financing Services
     content: >
-      Professional support in all aspects of financing renewable energy facilities, such as revenue models and the concept of Energy-as-a-Service (EaaS) from capital investment, to maximize your financial opportunities. 
+      With our deep expertise in taxation, regulation and financing, we present groundbreaking revenue strategies and business concepts ranging from traditional capital investments to "energy-as-a-service.". 
   eaas_3: 
     title: Construction Services
     content: >
-      We can assemble a team of experienced engineers, electricians and Installers, and provide a reliable, high quality construction service, and follow acceptance and commissioning through to completion with certificates. 
+      We can assemble a diverse team of engineers, electricians, and installers, ensuring a reliable and efficient installation service. With our comprehensive expertise, we guide you seamlessly from the idea, planning to completion.
+      
   marker_1: 
     title: PV for Industry & Commerce
     content: >
-      Implementing customized solutions for commercial and industrial rooftop PV can help improve energy system efficiency, reduce electricity costs, reduce CO2 emissions, while achieving corporate ESG sustainability goals.
+      Implementing customized solutions for commercial and industrial PV installations can help improve energy system efficiency, optimize electricity costs, and reduce CO2 emissions while meeting corporate ESG sustainability goals to make sustainable contributions to our world.
   marker_2: 
     title: PV for household
     content: >
-      Due to the high cost of household electricity, the use of a PV system with storage system solution reduces the direct feed-in of PV electricity to the grid (the German PV feed-in tariff is around 9 cents) and maximizes the amount of PV electricity generated for self-consumption without burdening the grid.
+      The use of a PV system with storage reduces the direct feed-in of PV electricity to the grid, which is advantageous for households due to high electricity costs. The amount of PV electricity generated is maximized for self-consumption without burdening the power grid.
   marker_3: 
-    title: Ground-mounted PV power stations
+    title: Ground-mounted PV power station
     content: >
-      The 2023 Renewable Energy Act (EEG) is a major benefit to the development of Agro-Photovoltaik (APV) in Germany, changing the bidding model for APV plants from a special tender to a general tender and simplifying the complexities of APV plant construction.
+      The EEG 2023 represents a significant step forward for large-scale PV stations. It changes the tender model from special to general tenders and simplifies the construction of agrivoltaic Stations. This creates opportunities for the expansion of PV stations on large open spaces.
   marker_4: 
     title: Energy storage
     content: >
-      PV and energy storage integrated solutions can enhance local PV consumption, improve power reliability and quality, and reduce electricity bills.
+      PV systems with integrated battery storage offer comprehensive solutions to increase local consumption of PV electricity, improve the reliability and quality of power supply, and reduce electricity bills in the long term in the process.
   marker_5: 
     title: Charging station
     content: >
-      The combination of photovoltaic carports and charging stations is attractive. Photovoltaic power makes a greener source of electricity for electric vehicles and is a way for companies to demonstrate their commitment to the energy transition and the fight against climate change.
+      The combination of PV carports and charging stations is attractive: PV electricity provides an green energy for electric vehicles, while enabling companies to demonstrate their commitment to the fight against climate change.
   marker_6: 
     title: Heat pump
     content: >
-      Our PV energy storage charging column heat pump solution for residential, commercial and industrial applications can solve this problem perfectly: The heat pump consumes the green electricity generated by the PV as a power consumer, and distributes and optimizes the electricity through our energy management system (EMS), which can reduce your electricity costs.
+      Through our Energy Management System (EMS), the green electricity generated by the PV system is efficiently used by the heat pump. The generated heat or cold is optimally distributed, which can lead to a reduction in your electricity costs. 
   our_products: Our products
   download_product_sheet: Download product sheet
   photovoltaics: photovoltaics
@@ -97,14 +99,14 @@ en:
   contact_form_agreement_4: "the privacy_policy"
   contact_form_agreement_5: "."
   learn_more: Learn more
-  query_text_1: You want to know more about our products and solutions？
+  query_text_1: You want to know more about our products and solutions?
   query_text_2: Our sales team will be happy to help you.
   query_text_3: Request now
   about_us_text: >
-    RheinTech Energy (RTE) is an innovative company and one of the leading providers of renewable energy solutions for the German photovoltaic market. The team members have many years of experience in the fields of renewable energy technology and policy research as well as real estate construction and development. RTE offers a full range of services from PV plant project planning, design consulting, financing, installation to O&M, as well as energy storage, charging pile and thermal energy. as well as the integration of products such as energy storage, charging piles and heat pumps. 
+    RheinTech Energy (RTE) is an innovative company and one of the leading providers of renewable energy solutions in the German energy market. The team members have many years of experience in renewable energy technology and products as well as real estate construction and development. RTE offers a comprehensive range of services from project planning, consulting, financing and installation to the operation and maintenance of PV systems, energy storage systems, charging columns and heat pumps, as well as the integration of products such as energy storage, charging columns and heat pumps in an optimal energy supply system for your needs.   
   mission: Our mission
   mission_text: >
-    We advocate altruism and are committed to promoting energy transformation, serve society with green power, and enable commercial and industrial enterprises to achieve ESG sustainability goals. 
+    We are committed to altruism, to driving the energy transition and providing green power to society. 
 de:
   home: startseite
   software: software
@@ -116,18 +118,18 @@ de:
   contact: kontakt
   eaas: Energy-as-a-Service
   eaas_text: >
-      Energy-as-a-Service (EaaS) ist ein Konzept, bei dem wir nicht nur die Energieerzeugung bereitstellen, sondern auch den gesamten Betrieb und die Wartung der Anlage übernimmt. Dies ermöglicht es Investoren, sich auf ihre Kernkompetenzen zu konzentrieren, während sie gleichzeitig von den finanziellen Vorteilen der erneuerbaren Energien profitieren.  
+      Energy-as-a-Service (EaaS) ist ein Konzept, bei dem wir nicht nur die Energieerzeugung bereitstellen, sondern auch den gesamten Betrieb und die Wartung der Anlage übernimmt. Dies ermöglicht es Investoren/Grundstückbesitzer, sich auf ihre Kernkompetenzen zu konzentrieren, während sie gleichzeitig von den finanziellen Vorteilen der erneuerbaren Energien profitieren.  
 
-      Wir liefern an Großkunden die Photovoltaikanlage, die Installationsmaterialien, die Speicher, die Ladeboxen und die Ladestationen, die Wärmepumpe sowie andere Grünenergieanlagen. Wir liefern Fertiganlage, ohne Sie selber darum kümmern zu müssen. Wir liefern Energieanlage mit Finanzierung, ohne Sie dafür investieren zu müssen. Wir liefern Energy-as-a-Service (EaaS): entwickelt, verbaut, betreibt und besitzt dezentrale PV-Anlagen und bietet Lösungen über ein Energy-as-a-Service-Modell an, dass Kunden helfen, Risiken und Komplexität zu reduzieren und gleichzeitig ihre wichtigsten ESG-Nachhaltigkeitsziele zu erreichen sowie die Energieeffizienz und die Widerstandsfähigkeit ihrer Energieinfrastruktur zu verbessern.   
+      Wir liefern an Großkunden die Photovoltaikanlage, die Installationsmaterialien, die Speicher, die Ladesäulen oder die Ladestationen, die Wärmepumpe sowie andere Grünenergieanlagen aus einer Hand. Wir liefern Energy-as-a-Service (EaaS): plant, entwickelt, verbaut, betreibt und besitzt dezentrale PV-Anlagen und bietet Lösungen über ein Energy-as-a-Service-Modell an, dass Kunden helfen, Risiken und Komplexität zu reduzieren und gleichzeitig ihre wichtigsten ESG-Nachhaltigkeitsziele zu erreichen sowie die Energieeffizienz und die Widerstandsfähigkeit ihrer Energieinfrastruktur zu verbessern und Energiekosten zu optimieren.   
 
-      Um Ihre finanziellen Möglichkeiten bei der Finanzierung von Anlagen zur Nutzung erneuerbarer Energien auszuschöpfen, können wir Ihnen bei der Entwicklung maßgeschneiderter Finanzierungslösungen helfen. Dies kann die Bewertung der Rentabilität der Investition, die Auswahl der richtigen Finanzierungsinstrumente wie Darlehen, Leasing oder Eigenkapitalbeteiligung, die Identifizierung von Förderprogrammen und die Unterstützung bei der Beantragung von Finanzierungsmitteln umfassen. Bitte teilen Sie uns weitere Details über Ihr Projekt mit, damit wir Ihnen eine genauere Beratung bieten können. 
+      Um Ihre Finanzierung für erneuerbarer Energien auszuschöpfen, können wir Ihnen bei der Entwicklung maßgeschneiderter Finanzierungslösungen unterstützen. Dies kann die Bewertung der Rentabilität der Investition, die Auswahl der richtigen Finanzierungsinstrumente wie Darlehen, Leasing oder Eigenkapitalbeteiligung, die Identifizierung von Förderprogrammen und die Unterstützung bei der Beantragung von Finanzierungsmitteln umfassen. Wir können sogar die Finanzierung anbieten. Bitte teilen Sie uns weitere Details über Ihr Projekt mit, damit wir Ihnen eine genauere Beratung anbieten können. 
   slogan: Creating a Green New World
   carousel-title-1: RheinTech Energy
   carousel-title-2: Creating a Green New World
   carousel-title-3: Energy-as-a-Service
-  reason_1: Mit dem Energy-as-a-Service (EaaS)-Konzept, um CO2-Emissionen zu reduzieren
-  reason_2: Individuellen Konzepten, Beratung, Planung, Finanzierung, Implementierung
-  reason_3: Leistungen im Bereich PV-Anlagen, Batteriespeicher, Ladesäulen und Wärmepumpen aus einer Hand
+  reason_1: Mit dem Energy-as-a-Service (EaaS)-Konzept, um CO2-Emissionen zu reduzieren.
+  reason_2: Wir können individuellen Konzepten, Beratung, Planung, Finanzierung und Implementierung anbieten.
+  reason_3: Leistungen im Bereich PV-Anlagen, Batteriespeicher, Ladesäulen und Wärmepumpen aus einer Hand.
   eaas_1:
     title: Individuelle Dienstleistungen
     content: > 
@@ -135,52 +137,52 @@ de:
   eaas_2: 
     title: Finanzierung
     content: >
-      Professionelle Unterstützung bei allen Aspekten der Finanzierung von Anlagen zur Nutzung erneuerbarer Energien, wie z. B. Einnahmemodelle und das Konzept von Energy-as-a-Service (EaaS) aus der Kapitalanlage, um Ihre finanziellen Möglichkeiten auszuschöpfen. 
+      Mit unserem fundierten Fachwissen in den Bereichen Steuern, Regulierung und Finanzierung präsentieren wir Ihnen wegweisende Einkommensstrategien und Geschäftskonzepte, die von traditionellen Kapitalanlagen bis hin zu "Energy-as-a-Service" reichen. 
   eaas_3: 
     title: Implementierung
     content: >
-      Wir können ein Team von erfahrenen Ingenieuren, Elektrikern und Installateuren zusammenstellen, und einen zuverlässigen, qualitativ hochwertigen Bauservice zu gewährleisten, und die Abnahme und Inbetriebnahme bis zur Fertigstellung mit Bescheinigungen zu begleiten. 
+      Wir können ein Team von erfahrenen Ingenieuren, Elektrikern und Installateuren zusammenstellen, und einen zuverlässigen, qualitativ hochwertigen Einbauservice zu gewährleisten. Wir können Sie von der Idee, Planung bis zur Fertigstellung begleiten. 
   marker_1: 
     title: PV-Anlagen für Gewerbe & Industrie
     content: >
-      Die Umsetzung maßgeschneiderter Lösungen für gewerbliche und industrielle Aufdach-PV-Anlagen kann dazu beitragen, die Effizienz des Energiesystems zu verbessern, die Stromkosten zu senken, CO2-Emissionen zu reduzieren und gleichzeitig die ESG-Nachhaltigkeitsziele des Unternehmens zu erreichen.
+      Die Umsetzung maßgeschneiderter Lösungen für gewerbliche und industrielle PV-Anlagen kann dazu beitragen, die Effizienz des Energiesystems zu verbessern, die Stromkosten zu optimieren, CO2-Emissionen zu reduzieren und gleichzeitig die ESG-Nachhaltigkeitsziele des Unternehmens zu erreichen, um nachhaltige Beiträge unserer Welt zu leisten.
   marker_2: 
     title: PV-Anlagen für den Hausgebrauch
     content: >
-      Aufgrund der hohen Kosten für Haushaltsstrom reduziert der Einsatz einer PV-Anlagen mit Speichersystemlösung die direkte Einspeisung von PV-Strom in das Netz (die deutsche PV-Einspeisevergütung liegt bei rund 9 Cent) und maximiert die Menge des erzeugten PV-Stroms für den Eigenverbrauch, ohne das Stromnetz zu belasten.
+      Durch den Einsatz einer PV-Anlage mit Speicher wird die direkte Einspeisung von PV-Strom in das Netz reduziert, was aufgrund hoher Stromkosten für Haushalte von Vorteil ist. Die deutsche PV-Einspeisevergütung liegt bei etwa 9 Cent. Gleichzeitig wird die Menge des erzeugten PV-Stroms für den Eigenverbrauch maximiert, ohne das Stromnetz zu belasten.
   marker_3:
-    title: Freiflächen-PV-Park
+    title: Freiflächen-PV-Anlagen
     content: >
-      Das Erneuerbare-Energien-Gesetz (EEG) 2023 ist ein großer Gewinn für die Entwicklung der Agro-Photovoltaik (APV) in Deutschland. Es ändert das Ausschreibungsmodell für APV-Anlagen von einer speziellen Ausschreibung zu einer allgemeinen Ausschreibung und vereinfacht die Komplexität des Baus von APV-Anlagen.
+      Das EEG 2023 stellt einen bedeutenden Fortschritt für die großflächigen Photovoltaikanlagen in Deutschland dar. Es ändert das Ausschreibungsmodell von speziellen zu allgemeinen Ausschreibungen und vereinfacht den Bau von z.B. APV-Anlagen. Dadurch ergeben sich vielversprechende Möglichkeiten für den Ausbau von PV-Anlagen auf großen Freiflächen.
   marker_4:
     title: Batteriespeicher
     content: >
-      PV-Anlagen mit Batteriespeicher integrierte Lösungen können den lokalen Verbrauch von PV-Strom erhöhen, die Zuverlässigkeit und Qualität der Stromversorgung verbessern und die Stromrechnungen senken.
+      PV-Anlagen mit integrierten Batteriespeichern bieten umfassende Lösungen, um den lokalen Verbrauch von PV-Strom zu erhöhen, die Zuverlässigkeit und Qualität der Stromversorgung zu verbessern und dabei die Stromrechnungen nachhaltig zu senken.
   marker_5:
     title: Ladenstation
     content: >
-      Die Kombination von Photovoltaik-Carports und Ladestationen ist attraktiv: Photovoltaikstrom ist eine umweltfreundlichere Stromquelle für Elektrofahrzeuge und eine Möglichkeit für Unternehmen, ihr Engagement für die Energiewende und den Kampf gegen den Klimawandel.
+      Die Kombination von PV-Carports und Ladestationen ist attraktiv: PV-Strom stellt eine umweltfreundliche Energiequelle für Elektrofahrzeuge dar und ermöglicht Unternehmen gleichzeitig, ihr Engagement für die Energiewende und den Kampf gegen den Klimawandel zu demonstrieren.
   marker_6:
     title: Wärmepumpen
     content: > 
-      Die Wärmepumpe verbraucht den von der PV erzeugten Ökostrom als Stromverbraucher und verteilt und optimiert den Strom über unser Energiemanagementsysteme (EMS), wodurch Ihre Stromkosten reduziert werden können. 
+      Durch unser Energiemanagementsystem (EMS) wird der von der PV-Anlage erzeugte Ökostrom effizient von der Wärmepumpe genutzt. Dabei wird die erzeugte Wärme oder Kälte optimal verteilt, was zu einer Senkung Ihrer Stromkosten führen kann. 
   robots: Robots
   our_products: Unsere Produkte
   download_product_sheet: Produktblatt herunterladen
-  photovoltaics: photovoltaik
+  photovoltaics: Photovoltaik
   energy_storage: Batteriespeicher
   charging_stations: Ladestaion
   heat_pumps: Wärmepumpen
-  family_pv_storage_charge: family pv storage charge
-  family_pv_storage_charge_pump: family pv storage charge heat pump
-  industrial_park_zero_emission: industrial park zero emission
+  family_pv_storage_charge: Privathaus-Solar-Speicher-Ladebox
+  family_pv_storage_charge_pump: Privathaus-Solar-Speicher-Wärmepumpe
+  industrial_park_zero_emission: Industriepark-Null-Emission
   residential: Privatkunden
   industrial: Geschäftskunden
   services: Dienstleistungen
-  links: links
+  links: Links
   follow_us: Folge uns
-  imprint: impressum
-  privacy_policy: datenschutzerklärung
+  imprint: Impressum
+  privacy_policy: Datenschutzerklärung
   lang_code: DE
   flag: de
   append: /de
@@ -198,20 +200,21 @@ de:
   placeholder_email: Geben Sie Ihre E-Mail ein
   placeholder_message: Geben Sie Ihre Nachricht ein
   contact_form_comments: Die mit einem Sternchen (*) gekennzeichneten Felder sind Pflichtfelder und müssen ausgefüllt werden.
-  contact_form_agreement_1: "Ich stimme"
-  contact_form_agreement_2: "den Nutzungsbedingungen"
-  contact_form_agreement_3: "und"
-  contact_form_agreement_4: "der Datenschutzrichtlinie"
-  contact_form_agreement_5: " zu."
-  learn_more: Lern mehr
-  query_text_1: Sie möchten mehr über unsere Produkte und Lösungen erfahren?
+  contact_form_agreement_1: "Ich stimme "
+  contact_form_agreement_2: "den Nutzungsbedingungen "
+  contact_form_agreement_3: "und "
+  contact_form_agreement_4: "der Datenschutzrichtlinie "
+  contact_form_agreement_5: "zu."
+  learn_more: Mehr erfahren
+  query_text_1: Möchten Sie mehr über unsere Produkte und Lösungen erfahren?
   query_text_2: Unser Vertriebsteam hilft Ihnen gerne weiter.
   query_text_3: Jetzt anfragen
   about_us_text: >
-    RheinTech Energy (RTE) ist ein innovatives Unternehmen und einer der führenden Anbieter von Lösungen für erneuerbare Energien auf dem deutschen Photovoltaikmarkt. Die Teammitglieder verfügen über langjähsrige Erfahrung in den Bereichen Erneuerbare-Energien-Technologie und -Politikforschung sowie Immobilienbau und -entwicklung. RTE bietet ein umfassendes Leistungsspektrum von der Projektierung, Beratung, Finanzierung und Installation über den Betrieb und die Wartung von PV-Anlagen bis hin zu Energiespeichern, Ladesäulen und thermischen Systemen. sowie die Integration von Produkten wie Energiespeicher, Ladesäulen und Wärmepumpen. 
+    RheinTech Energy (RTE) ist ein innovatives Unternehmen und einer der führenden Anbieter von Lösungen für erneuerbare Energien auf dem deutschen Energiemarkt. Die Teammitglieder verfügen über langjähsrige Erfahrung in den Bereichen Erneuerbare-Energien-Technologie und -Produkten sowie Immobilienbau und -entwicklung. RTE bietet ein umfassendes Leistungsspektrum von der Projektierung, Beratung, Finanzierung und Installation über den Betrieb und die Wartung von PV-Anlagen bis hin zu Energiespeichern, Ladesäulen und Wärmepumpen sowie die Integration von Produkten wie Energiespeicher, Ladesäulen und Wärmepumpen in einem optimalen Energieversorgungssystem für Ihre Bedürfnisse.
+
   mission: Unsere Vision
   mission_text: >
-    Wir setzen uns für Altruismus ein und verpflichten uns, die Energiewende zu fördern, die Gesellschaft mit grünem Strom zu versorgen und Handels- und Industrieunternehmen dabei zu unterstützen, ESG-Nachhaltigkeitsziele zu erreichen.
+    Wir setzen uns für Altruismus ein und verpflichten uns, die Energiewende voranzutreiben und die Gesellschaft mit grünem Strom zu versorgen.
 cn:
   home: 首页
   software: 软件
