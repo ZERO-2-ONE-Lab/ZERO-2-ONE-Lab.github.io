@@ -121,8 +121,11 @@ a:hover {
         padding-bottom: 40px;
     }
     .section-wrapper .content-block .content-block-title {
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
+    .section-wrapper .content-block .content-block-body {
+        font-size: 1rem;
+}
 }
 
 /*
@@ -166,6 +169,16 @@ a:hover {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .feature-entry .feature-title {
+        font-size: 1.25rem;
+    }
+    .feature-entry .feature-body {
+        font-size: 1rem;
+    }
+
+    .feature-entry .btn-primary {
+        font-size: 1rem;
+    }
 }
 
 /*
@@ -186,7 +199,6 @@ a:hover {
 .product-entry .product-info .product-name {
     font-size: 1.5rem;
     font-weight: bold;
-    height: 5rem;
 }
 
 .product-entry .product-info .product-alias {
@@ -238,11 +250,29 @@ a:hover {
 
 @media (max-width: 767px) {
     .product-query-text {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #product-query .btn-primary{
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    .product-entry .btn-primary {
+        font-size: 1rem;
+    }
+    .product-entry .product-info {
+        font-size: 1rem;
+    }
+
+    .product-entry .product-info .product-name {
+        font-size: 1.25rem;
+    }
+
+    .product-entry .product-info .product-alias {
+        font-size: 1rem;
+    }
+
+    .product-entry .product-info .product-description {
+        font-size: 1rem;
     }
 }
 
