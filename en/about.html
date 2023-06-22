@@ -58,22 +58,30 @@ reference: about
 <section id="company" class="section-wrapper">
   <div class="container">
     <!-- Begin About Us Row -->
-    <div class="row">
-      <div class="content-block">
-        <p class="content-block-title">{{ site.data.locales[page.lang].about }}</p>
-        <p class="row text-start content-block-body">
-          {{ site.data.locales[page.lang].about_us_text}}
-        </p>
-      </div>
-    </div>
+        <div class="row">
+            <div class="content-block">
+                <div class="content-block-title">
+                    {{ site.data.locales[page.lang].about }}
+                </div>
+                <div class="row text-start content-block-body">
+                    <div class="col-md-12">
+                      {{ site.data.locales[page.lang].about_us_text}}
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- End About US Row -->
     <!-- Begin Our mission Row -->
     <div class="row">
       <div class="content-block">
-        <p class="content-block-title">{{ site.data.locales[page.lang].mission }}</p>
-        <p class="row text-start content-block-body">
-          {{ site.data.locales[page.lang].mission_text}}
-        </p>
+          <div class="content-block-title">
+              {{ site.data.locales[page.lang].mission }}
+          </div>
+          <div class="row text-start content-block-body">
+            <div class="col-md-12">
+              {{ site.data.locales[page.lang].mission_text}}
+            </div>
+          </div>
       </div>
     </div>
     <!-- End Our mission Row -->
