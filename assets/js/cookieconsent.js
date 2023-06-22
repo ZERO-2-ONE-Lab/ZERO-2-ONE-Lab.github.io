@@ -19,7 +19,7 @@
 
         var _config = {
             'mode': 'opt-in',                         // 'opt-in', 'opt-out'
-            'current_lang': 'en',
+            'current_lang': 'de',
             'auto_language': null,
             'autorun': true,                          // run as soon as loaded
             'page_scripts': true,

@@ -66,7 +66,7 @@ cc.run({
                 blocks: [
                     {
                         title: 'Cookie usage 📢',
-                        description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="privacy-policy" class="cc-link">privacy policy</a> and <a href="imprint" class="cc-link">imprint</a>.'
+                        description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/en/privacy-policy" class="cc-link">privacy policy</a> and <a href="/en/imprint" class="cc-link">imprint</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
                         description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
@@ -108,7 +108,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="contact">contact us</a>.',
+                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="/en/contact">contact us</a>.',
                     }
                 ]
             }
@@ -141,7 +141,7 @@ cc.run({
             blocks: [
                 {
                     title: 'Cookie-Einstellungen 📢',
-                    description: 'Wir verwenden Cookies, um die Grundfunktionen der Website sicherzustellen und Ihr Online-Erlebnis zu verbessern. Sie können für jede Kategorie wählen, ob Sie sich jederzeit an- oder abmelden möchten. Für weitere Einzelheiten zu Cookies und anderen sensiblen Daten lesen Sie bitte die vollständige <a href="/de/privacy-policy" class="cc-link">Datenschutzerklärung</a> und <a href="/de/imprint" class="cc-link">Impressum</a>.'
+                    description: 'Wir verwenden Cookies, um die Grundfunktionen der Website sicherzustellen und Ihr Online-Erlebnis zu verbessern. Sie können für jede Kategorie wählen, ob Sie sich jederzeit an- oder abmelden möchten. Für weitere Einzelheiten zu Cookies und anderen sensiblen Daten lesen Sie bitte die vollständige <a href="privacy-policy" class="cc-link">Datenschutzerklärung</a> und <a href="imprint" class="cc-link">Impressum</a>.'
                 }, {
                     title: 'Unbedingt notwendige Cookies',
                     description: 'Diese Cookies sind für das ordnungsgemäße Funktionieren meiner Website unerlässlich. Ohne diese Cookies würde die Website nicht richtig funktionieren',
@@ -183,7 +183,7 @@ cc.run({
                     }
                 }, {
                     title: 'Mehr Informationen',
-                    description: 'Wenn Sie Fragen zu unserer Cookie-Politik und Ihren Wahlmöglichkeiten haben, <a class="cc-link" href="/de/contact">kontaktieren Sie uns bitte</a>.',
+                    description: 'Wenn Sie Fragen zu unserer Cookie-Politik und Ihren Wahlmöglichkeiten haben, <a class="cc-link" href="contact">kontaktieren Sie uns bitte</a>.',
                 }
             ]
             }
