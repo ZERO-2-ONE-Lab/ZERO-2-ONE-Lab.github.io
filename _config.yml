@@ -13,14 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: RheinTech Energy - Creating A Green New World
-email: info@rte-energy.de
-description: > # this means to ignore newlines until "baseurl:"
-  Creating A Green New World
+title: Zero-2-One
+email: zero2one.innovation@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  WE ARE ZERO-2-ONE
+  WE ARE AN AMAZING TEAM!
+  YEAH!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zero-2-one-lab-2.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ZERO2ONE_X
+github_username:  ZERO-2-ONE-Lab
 
-# url: "https://rheintech-energy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://www.rte-energy.de" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
 
 # Company Information
 company_name: RheinTech Energy GmbH
