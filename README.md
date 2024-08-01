@@ -1,3 +1,6 @@
-# RheinTech Energy
+# Zero-2-One
 
-This repo contains the codes for the webstie of RheinTech Energy.
+WE ARE ZERO-2-ONE！
+WE ARE AN AMAZING TEAM！
+WELCOME TO JOIN US！🥳
+YEAH！
