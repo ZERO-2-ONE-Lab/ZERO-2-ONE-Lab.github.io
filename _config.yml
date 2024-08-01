@@ -20,23 +20,23 @@ description: >- # this means to ignore newlines until "baseurl:"
   WE ARE AN AMAZING TEAM!
   YEAH!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zero-2-one-lab-2.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zero-2-one-lab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ZERO2ONE_X
 github_username:  ZERO-2-ONE-Lab
 
 
 # Company Information
-company_name: RheinTech Energy GmbH
+company_name: ZERO-2-ONE INNOVATION 
 address_line: Sandstr. 87, 40789 Monheim a. Rhein, Germany
 telephone_number: 0049 (0) 214 314 997 0
 fax_number: 0049 (0) 214 314 997 17
-company_email: info@rte-energy.de
+company_email: zero2one.innovation@gmail.com
 google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.902448231176!2d6.8983799999999995!3d51.110260000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf32f1a55ce0ed%3A0x483bef24cdcf3a8c!2sSandstra%C3%9Fe%2087%2C%2040789%20Monheim%20am%20Rhein!5e0!3m2!1sen!2sde!4v1684483069861!5m2!1sen!2sde
 # Social Link
-facebook_link: http://www.facebook.com
-twitter_link: http://www.twitter.com
-linkedin_link: http://www.linkedin.com
-googleplus_link: http://plus.google.com
+#facebook_link: http://www.facebook.com
+#twitter_link: http://www.twitter.com
+#linkedin_link: http://www.linkedin.com
+#googleplus_link: http://plus.google.com
 
 # Build settings
 markdown: kramdown
